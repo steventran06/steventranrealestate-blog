@@ -1,36 +1,11 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: About Steven
 ---
+Steven Tran is a licensed real estate broker with [Diverse Realty Group](https://steven.diverserg.com/) serving the Portland Metro Area and Southwest Washington. His passion for real estate began as an investor and property manager, purchasing and managing multifamily properties in both Oregon and Washington. With hands-on experience in rental management, renovations, and identifying strong ROI opportunities, Steven is a trusted resource for buyers, sellers, and real estate investors.
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Steven is deeply involved in the real estate industry and community, serving as the 2025 President of the Asian Real Estate Association of America (AREAA) Portland Chapter, as well as a State Director and Vice Chair for the Diversity Key Committee for Oregon REALTORS®. He is also the co-host of the [REalized Gains Podcast](https://www.youtube.com/@realizedgainspodcast), where he has interviewed dozens of real estate investors and small business owners on wealth-building and entrepreneurship.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Born and raised in the Pacific Northwest, Steven brings local expertise and a data-driven approach shaped by his background in business marketing, internet marketing, and software engineering. He is committed to helping clients make informed real estate decisions across Oregon and Washington.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Find out more and get your FREE Portland Relocation Guide [here](https://steventranrealestate.com?section=relocate)!
