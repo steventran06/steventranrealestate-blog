@@ -9,6 +9,8 @@ draft: true
 description: "Living in Tigard, Oregon: The Real Pros and Cons You Should Know
   Before Moving"
 ---
+![](/assets/tigard-cover.png)
+
 Tigard is one of the most practical and underrated suburbs in the Portland Metro Area. It offers central access, established neighborhoods, and relative affordability.
 
 * * *
