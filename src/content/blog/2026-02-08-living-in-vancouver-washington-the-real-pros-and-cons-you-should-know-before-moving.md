@@ -65,5 +65,5 @@ Downtown Vancouver is becoming more walkable and modern.
 
 📍 Thinking About Moving to Vancouver, WA?
 
-My relocation guide includes a full Oregon vs Washington comparison:  
+See my my relocation guide for the Portland Metropolitan Area:  
 [https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)
