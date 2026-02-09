@@ -12,6 +12,8 @@ tags:
 description: "Living in Beaverton, Oregon: The Real Pros and Cons You Should
   Know Before Moving"
 ---
+![](/assets/beaverton-cover.png)
+
 If you’re thinking about moving to Beaverton, Oregon, you’re not alone. Beaverton is one of the most searched and most relocated-to suburbs in the Portland Metro Area, especially for people coming from California, Washington, Texas, and other higher-cost markets.
 
 Some people move to Beaverton for job access and schools. Others want more space while staying close to Portland. But like anywhere, Beaverton has trade-offs that are worth understanding before you make the move.
