@@ -108,6 +108,14 @@ const socialImageURL = new URL(
     <ViewTransitions />
 
     <script is:inline src="/toggle-theme.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PCBBTVNK95"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PCBBTVNK95');
+    </script>
   </head>
   <body>
     <slot />
