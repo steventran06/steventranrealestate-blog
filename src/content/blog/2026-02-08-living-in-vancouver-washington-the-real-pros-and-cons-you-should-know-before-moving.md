@@ -9,6 +9,8 @@ draft: true
 description: "Living in Vancouver, Washington: The Real Pros and Cons You Should
   Know Before Moving"
 ---
+![](/assets/vancouver-cover.png)
+
 Vancouver, Washington has become one of the most popular relocation destinations in the Pacific Northwest — especially for people moving from Oregon and California.
 
 The biggest draw is no state income tax, but Vancouver offers more than just tax savings. Understanding the lifestyle and commute realities is key.
