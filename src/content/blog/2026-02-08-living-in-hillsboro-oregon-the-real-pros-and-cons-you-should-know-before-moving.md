@@ -86,5 +86,5 @@ Hillsboro works well if you want space, stability, and newer homes. It may not b
 
 📍 Thinking About Moving to Hillsboro?
 
-You can find a full breakdown of Hillsboro neighborhoods, pricing, and commute considerations in my relocation guide:  
+See my my relocation guide for the Portland Metropolitan Area:  
 [https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)
