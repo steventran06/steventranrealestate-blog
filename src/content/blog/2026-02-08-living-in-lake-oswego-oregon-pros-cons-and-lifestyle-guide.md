@@ -4,7 +4,7 @@ pubDatetime: 2026-03-30
 title: Living in Lake Oswego Oregon – Pros, Cons & Lifestyle Guide
 slug: living-in-lake-oswego-oregon-the-real-pros-and-cons-you-should-know-before-moving
 featured: false
-draft: false
+draft: true
 description: Living in Lake Oswego Oregon – Pros, Cons & Lifestyle Guide
 ---
 Lake Oswego is one of the most established and affluent cities in the Portland Metro Area, known for schools, lake access, and polished neighborhoods.
