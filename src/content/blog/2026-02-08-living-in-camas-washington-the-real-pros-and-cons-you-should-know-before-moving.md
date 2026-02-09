@@ -9,6 +9,8 @@ draft: true
 description: "Living in Camas, Washington: The Real Pros and Cons You Should
   Know Before Moving"
 ---
+![](/assets/camas-cover.png)
+
 Camas is often considered one of the most desirable cities in Southwest Washington. It’s known for strong schools, safety, and a tight-knit community.
 
 It’s not cheap, and it’s not urban — but for the right buyer, Camas is a standout.
