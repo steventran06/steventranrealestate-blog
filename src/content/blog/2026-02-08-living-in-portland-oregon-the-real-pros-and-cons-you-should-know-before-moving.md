@@ -8,7 +8,8 @@ slug: living-in-portland-oregon-the-real-pros-and-cons-you-should-know-before-mo
 featured: true
 draft: false
 tags:
-  - living-in-portland
+  - portland-lifestyle
+  - portland
 description: "Living in Portland, Oregon: The Real Pros and Cons You Should Know
   Before Moving"
 ---
