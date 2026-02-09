@@ -44,5 +44,5 @@ Homes here tend to hold value well.
 
 📍 Thinking About Moving to Camas?
 
-Camas is covered in my relocation guide alongside Vancouver and Portland suburbs:  
+See my my relocation guide for the Portland Metropolitan Area:  
 [https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)
