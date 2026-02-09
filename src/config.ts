@@ -3,9 +3,9 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://steventranrealestate.com", // replace this with your deployed domain
   author: "Steven Tran",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Steven Tran - Oregon & Washington Real Estate Broker",
-  ogImage: "astropaper-og.jpg",
+  desc: "Serving Portland Metro and Southwest Washington. First-time buyers, move-up buyers, and real estate investors—plus a free Portland Relocation Guide.",
+  title: "Blog | Oregon & Washington Real Estate Broker | Steven Tran",
+  ogImage: "linkpreview.png",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
