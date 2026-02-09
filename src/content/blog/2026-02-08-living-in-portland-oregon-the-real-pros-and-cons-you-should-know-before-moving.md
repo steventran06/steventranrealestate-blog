@@ -13,7 +13,7 @@ tags:
 description: "Living in Portland, Oregon: The Real Pros and Cons You Should Know
   Before Moving"
 ---
-# Living in Portland, Oregon: The Real Pros and Cons You Should Know Before Moving
+![](/assets/portland-cover.png)
 
 If you’re thinking about moving to Portland, Oregon, you’re not alone. Every week, I talk to people relocating here from California, Texas, Arizona, the Midwest, and even internationally. Some are drawn by the lifestyle. Others by job opportunities. Many are just looking for something different.
 
