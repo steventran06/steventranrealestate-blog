@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://steventranrealestate.com", // replace this with your deployed domain
   author: "Steven Tran",
   desc: "Serving Portland Metro and Southwest Washington. First-time buyers, move-up buyers, and real estate investors—plus a free Portland Relocation Guide.",
-  title: "Blog | Oregon & Washington Real Estate Broker | Steven Tran",
+  title: "Steven Tran | Blog",
   ogImage: "linkpreview.png",
   lightAndDarkMode: true,
   postPerPage: 3,
