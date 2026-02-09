@@ -1,7 +1,6 @@
 ---
 author: Steven Tran
 pubDatetime: 2026-02-16
-modDatetime: 2026-02-16
 title: "Living in Beaverton, Oregon: The Real Pros and Cons You Should Know
   Before Moving"
 slug: living-in-beaverton-oregon-the-real-pros-and-cons-you-should-know-before-moving
