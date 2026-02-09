@@ -4,6 +4,8 @@ title: About Steven
 ---
 ![](/assets/Smaller%20Headshot.jpeg)
 
+![](/assets/steventran.jpeg)
+
 Steven Tran is a licensed real estate broker with [Diverse Realty Group](https://steven.diverserg.com/) serving the Portland Metro Area and Southwest Washington. His passion for real estate began as an investor and property manager, purchasing and managing multifamily properties in both Oregon and Washington. With hands-on experience in rental management, renovations, and identifying strong ROI opportunities, Steven is a trusted resource for buyers, sellers, and real estate investors.
 
 Steven is deeply involved in the real estate industry and community, serving as the 2025 President of the Asian Real Estate Association of America (AREAA) Portland Chapter, as well as a State Director and Vice Chair for the Diversity Key Committee for Oregon REALTORS®. He is also the co-host of the [REalized Gains Podcast](https://www.youtube.com/@realizedgainspodcast), where he has interviewed dozens of real estate investors and small business owners on wealth-building and entrepreneurship.
