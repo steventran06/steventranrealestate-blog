@@ -12,6 +12,8 @@ tags:
 description: "Living in Hillsboro, Oregon: The Real Pros and Cons You Should
   Know Before Moving"
 ---
+![](/assets/hillsboro-cover.png)
+
 If you’re thinking about moving to Hillsboro, Oregon, you’re not alone. Hillsboro is one of the fastest-growing cities in the Portland Metro Area and a popular choice for people relocating for tech jobs, newer housing, and long-term stability.
 
 Some people move here for work opportunities. Others are drawn by newer neighborhoods and more space. But Hillsboro isn’t the right fit for everyone.
