@@ -5,6 +5,11 @@ title: Portland vs. Seattle - Which City is Better for Relocation
 slug: portland-vs-seattle-which-city-is-better-for-relocation
 featured: true
 draft: false
+tags:
+  - seattle
+  - portland-relocation
+  - portland-lifestyle
+  - moving-to-portland
 description: Thinking about relocating to the Pacific Northwest? We break down
   everything movers want to know — from cost of living and housing affordability
   to job markets, lifestyle vibes, and quality of life. Discover how Portland’s
