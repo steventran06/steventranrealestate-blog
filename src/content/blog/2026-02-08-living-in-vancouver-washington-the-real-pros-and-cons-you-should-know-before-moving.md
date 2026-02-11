@@ -6,8 +6,14 @@ title: "Living in Vancouver, Washington: The Real Pros and Cons You Should Know
 slug: living-in-vancouver-washington-the-real-pros-and-cons-you-should-know-before-moving
 featured: false
 draft: true
-description: "Living in Vancouver, Washington: The Real Pros and Cons You Should
-  Know Before Moving"
+description: Thinking about relocating to Vancouver, Washington? This
+  comprehensive guide covers the true pros and cons of living just across the
+  river from Portland. From no state income tax, newer housing developments, and
+  strong suburban growth to bridge traffic and property tax considerations, we
+  break down what it’s really like to live in Vancouver. If you’re weighing
+  Oregon vs. Washington while staying in the Portland metro area, this article
+  will help you determine whether Vancouver is the smarter move for your
+  lifestyle and finances.
 ---
 ![](/assets/vancouver-cover.png)
 
