@@ -9,8 +9,13 @@ draft: true
 tags:
   - hillsboro
   - hillsboro-lifestyle
-description: "Living in Hillsboro, Oregon: The Real Pros and Cons You Should
-  Know Before Moving"
+description: Planning to relocate to Hillsboro, Oregon? In this honest
+  breakdown, we cover the real pros and cons of living in one of the
+  fastest-growing cities in the Portland metro area. From strong job growth in
+  tech and manufacturing, newer housing developments, and suburban affordability
+  to commute times and suburban sprawl, you’ll get a balanced view of what it’s
+  like to live in Hillsboro. Whether you’re moving for work or looking for more
+  home for your money, this guide will help you make an informed decision.
 ---
 ![](/assets/hillsboro-cover.png)
 
