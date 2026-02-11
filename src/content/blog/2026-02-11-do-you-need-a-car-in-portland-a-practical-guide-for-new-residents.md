@@ -8,6 +8,7 @@ draft: true
 tags:
   - portland-lifestyle
   - portland
+  - transportation
 description: Can you live in Portland without a car? Learn about public
   transportation, walkable neighborhoods, and suburban realities.
 ---
