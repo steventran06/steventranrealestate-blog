@@ -8,6 +8,7 @@ draft: true
 tags:
   - portland-lifestyle
   - portland
+  - traffic
 description: How bad is traffic in Portland? Learn about commute patterns,
   bridge bottlenecks, and what new residents should expect before moving.
 ---
