@@ -6,8 +6,13 @@ title: "Living in Camas, Washington: The Real Pros and Cons You Should Know
 slug: living-in-camas-washington-the-real-pros-and-cons-you-should-know-before-moving
 featured: false
 draft: true
-description: "Living in Camas, Washington: The Real Pros and Cons You Should
-  Know Before Moving"
+description: Considering a move to Camas, Washington? This in-depth guide covers
+  the true advantages and tradeoffs of living in one of Southwest Washington’s
+  most desirable communities. From highly rated schools, scenic views, and no
+  state income tax to higher home prices and limited nightlife, we explore what
+  relocating to Camas really means for your lifestyle and budget. If you’re
+  debating between Oregon and Washington while staying near Portland, this
+  article helps you determine if Camas is the right place to call home.
 ---
 ![](/assets/camas-cover.png)
 
