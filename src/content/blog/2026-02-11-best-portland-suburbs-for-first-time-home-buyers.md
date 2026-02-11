@@ -1,10 +1,16 @@
 ---
+author: Steven Tran
+pubDatetime: 2026-03-04
 title: Best Portland Suburbs for First-Time Home Buyers
 slug: best-portland-suburbs-for-first-time-home-buyers
 featured: false
 draft: true
 tags:
   - tigard
+  - hillsboro
+  - beaverton
+  - gresham
+  - happy-valley
 description: Looking to buy your first home near Portland? Explore the best
   suburbs for affordability and long-term growth.
 ---
@@ -15,6 +21,7 @@ Top Options
 Tigard  
 Hillsboro  
 Gresham  
+Happy Valley  
 Outer Beaverton
 
 What to Consider
