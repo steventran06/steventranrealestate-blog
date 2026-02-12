@@ -4,7 +4,7 @@ pubDatetime: 2026-02-21
 title: Cost of Living in Portland vs California Cities
 slug: cost-of-living-in-portland-vs-california-cities
 featured: true
-draft: true
+draft: false
 tags:
   - portland-lifestyle
   - portland
