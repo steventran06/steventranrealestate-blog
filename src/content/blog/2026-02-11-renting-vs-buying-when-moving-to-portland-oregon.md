@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-02-18
+pubDatetime: 2026-03-17
+modDatetime: 2026-02-17
 title: Renting vs Buying When Moving to Portland Oregon
 slug: renting-vs-buying-when-moving-to-portland-oregon
 featured: false
-draft: true
+draft: false
 description: Should you rent or buy when moving to Portland? Learn what makes
   sense in 2026 based on costs and lifestyle.
 ---
