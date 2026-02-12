@@ -1,7 +1,7 @@
 ---
 author: Steven Tran
 pubDatetime: 2026-03-17
-modDatetime: 2026-02-17
+modDatetime: 2026-03-17
 title: Renting vs Buying When Moving to Portland Oregon
 slug: renting-vs-buying-when-moving-to-portland-oregon
 featured: false
