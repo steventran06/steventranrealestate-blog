@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-04-01
+pubDatetime: 2026-03-05
+modDatetime: 2026-03-05
 title: "Oregon vs Washington Taxes: What Movers Need to Know Before Relocating"
 slug: oregon-vs-washington-taxes-what-movers-need-to-know-before-relocating
 featured: true
-draft: true
+draft: false
 tags:
   - taxes
   - oregon
