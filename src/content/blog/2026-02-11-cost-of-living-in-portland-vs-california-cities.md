@@ -1,6 +1,6 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-04-08
+pubDatetime: 2026-02-21
 title: Cost of Living in Portland vs California Cities
 slug: cost-of-living-in-portland-vs-california-cities
 featured: true
