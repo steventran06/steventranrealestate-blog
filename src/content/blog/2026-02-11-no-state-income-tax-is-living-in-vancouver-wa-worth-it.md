@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-03-18
+pubDatetime: 2026-03-21
+modDatetime: 2026-03-21
 title: "No State Income Tax: Is Living in Vancouver, WA Worth It?"
 slug: no-state-income-tax-is-living-in-vancouver-wa-worth-it
 featured: false
-draft: true
+draft: false
 tags:
   - vancouver
   - vancouver-life-style
