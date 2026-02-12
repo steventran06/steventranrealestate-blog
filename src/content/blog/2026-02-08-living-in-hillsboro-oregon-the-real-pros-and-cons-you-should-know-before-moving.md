@@ -1,11 +1,12 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-02-23
+pubDatetime: 2026-03-15
+modDatetime: 2026-02-15
 title: "Living in Hillsboro, Oregon: The Real Pros and Cons You Should Know
   Before Moving"
 slug: living-in-hillsboro-oregon-the-real-pros-and-cons-you-should-know-before-moving
 featured: false
-draft: true
+draft: false
 tags:
   - hillsboro
   - hillsboro-lifestyle
