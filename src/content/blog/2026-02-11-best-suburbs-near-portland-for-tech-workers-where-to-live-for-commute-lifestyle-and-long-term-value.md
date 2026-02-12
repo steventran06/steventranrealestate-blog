@@ -1,11 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-03-18
+pubDatetime: 2026-02-15
 title: "Best Suburbs Near Portland for Tech Workers: Where to Live for Commute,
   Lifestyle & Long-Term Value"
 slug: best-suburbs-near-portland-for-tech-workers
 featured: false
-draft: true
+draft: false
 tags:
   - portland-lifestyle
   - portland
