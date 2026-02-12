@@ -1,11 +1,12 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-03-02
+pubDatetime: 2026-03-03
+modDatetime: 2026-03-03
 title: "Living in Vancouver, Washington: The Real Pros and Cons You Should Know
   Before Moving"
 slug: living-in-vancouver-washington-the-real-pros-and-cons-you-should-know-before-moving
 featured: false
-draft: true
+draft: false
 description: Thinking about relocating to Vancouver, Washington? This
   comprehensive guide covers the true pros and cons of living just across the
   river from Portland. From no state income tax, newer housing developments, and
