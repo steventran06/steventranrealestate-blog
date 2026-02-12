@@ -1,6 +1,7 @@
 ---
 author: Steven Tran
 pubDatetime: 2026-02-13
+modDatetime: 2026-02-13
 title: Best Portland Suburbs for First-Time Home Buyers
 slug: best-portland-suburbs-for-first-time-home-buyers
 featured: false
