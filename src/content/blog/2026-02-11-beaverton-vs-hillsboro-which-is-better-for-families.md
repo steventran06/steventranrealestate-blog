@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-02-11
+pubDatetime: 2026-02-23
+modDatetime: 2026-02-23
 title: "Beaverton vs Hillsboro: Which is Better for Families"
 slug: portland-vs-beaverton-which-is-better-for-families
 featured: false
-draft: true
+draft: false
 tags:
   - beaverton
   - beaverton-lifestyle
