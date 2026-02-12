@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-05-20
+pubDatetime: 2026-03-23
+modDatetime: 2026-03-23
 title: "Portland Traffic: What New Residents Should Expect Before Moving"
 slug: portland-traffic-what-new-residents-should-expect-before-moving
 featured: false
-draft: true
+draft: false
 tags:
   - portland-lifestyle
   - portland
