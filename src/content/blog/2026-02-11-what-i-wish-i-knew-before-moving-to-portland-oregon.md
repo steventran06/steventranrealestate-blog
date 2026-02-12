@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-02-11
+pubDatetime: 2026-03-13
+modDatetime: 2026-03-13
 title: What I Wish I Knew Before Moving to Portland, Oregon
 slug: what-i-wish-i-knew-before-moving-to-portland-oregon
 featured: false
-draft: true
+draft: false
 tags:
   - portland-lifestyle
   - portland-relocation
