@@ -1,10 +1,10 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-06-03
+pubDatetime: 2026-02-17
 title: Do You Need a Car in Portland? A Practical Guide for New Residents
 slug: do-you-need-a-car-in-portland-a-practical-guide-for-new-residents
 featured: false
-draft: true
+draft: false
 tags:
   - portland-lifestyle
   - portland
