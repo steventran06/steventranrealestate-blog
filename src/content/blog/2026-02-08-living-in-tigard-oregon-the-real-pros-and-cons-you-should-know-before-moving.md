@@ -1,11 +1,12 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-03-23
+pubDatetime: 2026-03-07
+modDatetime: 2026-03-07
 title: "Living in Tigard, Oregon: The Real Pros and Cons You Should Know Before
   Moving"
 slug: living-in-tigard-oregon-the-real-pros-and-cons-you-should-know-before-moving
 featured: false
-draft: true
+draft: false
 description: Considering a move to Tigard, Oregon? In this detailed guide, we
   examine the real advantages and drawbacks of living in this centrally located
   Portland suburb. From convenient freeway access, growing retail and dining
