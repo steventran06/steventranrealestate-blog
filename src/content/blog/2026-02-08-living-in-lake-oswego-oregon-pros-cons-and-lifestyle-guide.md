@@ -1,11 +1,12 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-03-30
-title: Living in Lake Oswego Oregon – The Real Pros and Cons You Should Know
+pubDatetime: 2026-03-11
+modDatetime: 2026-03-11
+title: Living in Lake Oswego, Oregon – The Real Pros and Cons You Should Know
   Before Moving
 slug: living-in-lake-oswego-oregon-the-real-pros-and-cons-you-should-know-before-moving
 featured: false
-draft: true
+draft: false
 description: Thinking about moving to Lake Oswego, Oregon? This guide explores
   the true pros and cons of living in one of the most affluent and sought-after
   suburbs in the Portland area. From luxury homes, top-rated schools, and access
