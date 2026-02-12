@@ -1,10 +1,10 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-04-29
+pubDatetime: 2026-02-19
 title: Hidden Costs of Moving to Portland (Most People Miss These)
 slug: hidden-costs-of-moving-to-portland
 featured: false
-draft: true
+draft: false
 tags:
   - portland
   - portland-lifestyle
