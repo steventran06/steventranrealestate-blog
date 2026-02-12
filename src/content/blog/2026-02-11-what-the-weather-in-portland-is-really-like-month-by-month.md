@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-05-06
+pubDatetime: 2026-03-09
+modDatetime: 2026-03-09
 title: What the Weather in Portland Is Really Like (Month by Month)
 slug: what-the-weather-in-portland-is-really-like
 featured: false
-draft: true
+draft: false
 tags:
   - portland
   - portland-lifestyle
