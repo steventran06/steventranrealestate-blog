@@ -1,6 +1,7 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-02-25
+pubDatetime: 2026-02-21
+modDatetime: 2026-02-21
 title: Best Portland Suburbs for Remote Workers
 slug: best-portland-suburbs-for-remote-workers
 featured: false
