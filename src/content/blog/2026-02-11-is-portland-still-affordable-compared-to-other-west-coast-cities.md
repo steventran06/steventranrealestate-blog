@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-04-29
+pubDatetime: 2026-03-19
+modDatetime: 2026-03-19
 title: Is Portland Still Affordable Compared to Other West Coast Cities?
 slug: is-portland-still-affordable-compared-to-other-west-coast-cities
 featured: true
-draft: true
+draft: false
 tags:
   - portland
   - portland-lifestyle
