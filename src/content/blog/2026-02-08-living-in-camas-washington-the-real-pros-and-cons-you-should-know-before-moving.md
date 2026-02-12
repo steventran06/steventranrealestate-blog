@@ -1,11 +1,12 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-03-09
+pubDatetime: 2026-03-25
+modDatetime: 2026-03-25
 title: "Living in Camas, Washington: The Real Pros and Cons You Should Know
   Before Moving"
 slug: living-in-camas-washington-the-real-pros-and-cons-you-should-know-before-moving
 featured: false
-draft: true
+draft: false
 description: Considering a move to Camas, Washington? This in-depth guide covers
   the true advantages and tradeoffs of living in one of Southwest Washington’s
   most desirable communities. From highly rated schools, scenic views, and no
