@@ -1,11 +1,12 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-03-04
+pubDatetime: 2026-03-01
+modDatetime: 2026-03-01
 title: Is Portland a Good City for Remote Workers? Pros, Cons & What to Know
   Before Moving
 slug: is-portland-a-good-city-for-remote-workers-pros-cons-what-to-know-before-moving
 featured: false
-draft: true
+draft: false
 tags:
   - portland-lifestyle
   - portland
