@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-04-22
+pubDatetime: 2026-02-25
+modDatetime: 2026-02-25
 title: How Much Income Do You Need to Live Comfortably in Portland?
 slug: how-much-income-do-you-need-to-live-comfortably-in-portland
 featured: false
-draft: true
+draft: false
 tags:
   - portland-lifestyle
   - affordability
