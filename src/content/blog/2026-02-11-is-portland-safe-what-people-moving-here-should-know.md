@@ -1,10 +1,11 @@
 ---
 author: Steven Tran
-pubDatetime: 2026-05-20
+pubDatetime: 2026-03-27
+modDatetime: 2026-03-27
 title: Is Portland Safe? What People Moving Here Should Know
 slug: is-portland-safe-what-people-moving-here-should-know
 featured: false
-draft: true
+draft: false
 tags:
   - portland-lifestyle
   - portland
