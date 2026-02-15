@@ -5,7 +5,7 @@ title: "Best Suburbs Near Portland for Tech Workers: Where to Live for Commute,
   Lifestyle & Long-Term Value"
 slug: best-suburbs-near-portland-for-tech-workers
 featured: false
-draft: false
+draft: true
 tags:
   - portland-lifestyle
   - portland
