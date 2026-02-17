@@ -62,11 +62,3 @@ Choosing the right suburb can reduce financial pressure long-term.
 🎯 The Real Answer
 
 Comfortable living in Portland depends more on expectations than a fixed number. Lifestyle choices drive the budget more than the city itself.
-
-* * *
-
-📍 Planning a Move?
-
-Neighborhood cost differences are detailed here:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

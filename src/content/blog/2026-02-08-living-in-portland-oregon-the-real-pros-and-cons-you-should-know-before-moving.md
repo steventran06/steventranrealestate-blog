@@ -258,8 +258,3 @@ If you’re thinking about relocating to Portland or anywhere in the metro area,
     
 
 Those factors will determine whether Portland is simply interesting — or actually the right move for you.
-
-If you want a breakdown of neighborhoods, suburbs, costs, and what it actually takes to move here, I put together a detailed guide to help.
-
-👉 Portland Relocation Guide:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

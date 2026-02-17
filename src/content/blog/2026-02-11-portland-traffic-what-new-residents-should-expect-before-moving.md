@@ -106,11 +106,3 @@ If you choose your neighborhood wisely — especially relative to work — traff
 If you ignore commute routes, it can quickly become frustrating.
 
 Understanding this before moving makes a big difference.
-
-* * *
-
-📍 Planning a Move to the Portland Metro?
-
-If you want help comparing commute patterns between Portland, Beaverton, Hillsboro, Vancouver, Camas, or Tigard, I break down those trade-offs clearly in my relocation guide:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

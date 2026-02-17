@@ -85,10 +85,3 @@ Choose Seattle if you:
 • Want maximum career upside  
 • Are deeply tied to tech  
 • Are comfortable with higher costs
-
-* * *
-
-📍 Thinking About Portland?
-
-If Portland is on your shortlist, this guide breaks down neighborhoods and suburbs in detail:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

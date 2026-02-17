@@ -42,10 +42,3 @@ Tigard is one of the most practical and underrated suburbs in the Portland Metro
 • Commuters  
 • First-time buyers  
 • Buyers wanting central access
-
-* * *
-
-📍 Thinking About Moving to Tigard?
-
-See my my relocation guide for the Portland Metropolitan Area:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

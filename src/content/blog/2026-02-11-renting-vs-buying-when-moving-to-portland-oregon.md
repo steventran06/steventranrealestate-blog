@@ -50,10 +50,3 @@ Portland favors long-term ownership over short-term speculation.
 ⚖️ The Balanced Takeaway
 
 There’s no universal right answer. The best choice depends on your timeline and priorities.
-
-* * *
-
-📍 Want Help Deciding?
-
-This relocation guide breaks down neighborhoods, costs, and buying considerations:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

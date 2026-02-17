@@ -41,6 +41,3 @@ Blanket statements rarely reflect daily reality.
 📍 Research Matters
 
 Touring neighborhoods and understanding community differences is key.
-
-Relocation Guide:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

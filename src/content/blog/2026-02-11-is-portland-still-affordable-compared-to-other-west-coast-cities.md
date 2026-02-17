@@ -56,11 +56,3 @@ Portland is typically more affordable than most coastal Southern California mark
 Portland is no longer cheap compared to Midwest or Southern cities. However, relative to the West Coast, it remains mid-tier rather than top-tier pricing.
 
 Affordability is highly neighborhood-dependent and varies significantly between Portland proper and surrounding suburbs.
-
-* * *
-
-📍 Want Neighborhood-Level Pricing?
-
-My relocation guide breaks down suburbs and pricing tiers clearly:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

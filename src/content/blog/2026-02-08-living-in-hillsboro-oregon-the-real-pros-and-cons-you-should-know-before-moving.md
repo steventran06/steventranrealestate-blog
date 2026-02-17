@@ -89,10 +89,3 @@ Hillsboro works well if you want space, stability, and newer homes. It may not b
 • Families planning long-term  
 • Buyers who prefer newer homes  
 • Remote workers seeking space
-
-* * *
-
-📍 Thinking About Moving to Hillsboro?
-
-See my my relocation guide for the Portland Metropolitan Area:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

@@ -160,9 +160,4 @@ If you approach it strategically — especially with neighborhood selection — 
 
 📍 Thinking About Relocating as a Remote Worker?
 
-If you’re considering moving to Portland or one of its surrounding suburbs, I put together a detailed relocation guide that breaks down neighborhoods, commute patterns, housing costs, and the Oregon vs Washington decision.
-
-You can access it here:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)
-
 Having clarity before you move makes a big difference — especially when you have the flexibility remote work provides.

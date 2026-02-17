@@ -69,10 +69,3 @@ Downtown Vancouver is becoming more walkable and modern.
 • Remote or hybrid workers  
 • Buyers wanting newer homes  
 • People comfortable commuting
-
-* * *
-
-📍 Thinking About Moving to Vancouver, WA?
-
-See my my relocation guide for the Portland Metropolitan Area:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

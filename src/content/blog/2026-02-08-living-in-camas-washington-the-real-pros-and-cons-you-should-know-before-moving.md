@@ -47,10 +47,3 @@ Homes here tend to hold value well.
 • Families prioritizing schools  
 • Buyers seeking long-term stability  
 • People leaving larger metro areas
-
-* * *
-
-📍 Thinking About Moving to Camas?
-
-See my my relocation guide for the Portland Metropolitan Area:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

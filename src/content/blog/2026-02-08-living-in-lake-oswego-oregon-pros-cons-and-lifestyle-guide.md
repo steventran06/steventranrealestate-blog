@@ -42,10 +42,3 @@ Lake Oswego is one of the most established and affluent cities in the Portland M
 • Move-up buyers  
 • Executives and professionals  
 • Families prioritizing schools
-
-* * *
-
-📍 Thinking About Moving to Lake Oswego?
-
-See my my relocation guide for the Portland Metropolitan Area:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

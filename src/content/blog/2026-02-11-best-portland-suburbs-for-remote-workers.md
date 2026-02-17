@@ -44,6 +44,3 @@ What Matters Most
 • Access to parks and trails
 
 If you’re remote long-term, lifestyle becomes the deciding factor.
-
-Relocation Guide:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

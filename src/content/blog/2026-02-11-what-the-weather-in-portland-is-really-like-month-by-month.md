@@ -47,7 +47,3 @@ Fall (October–November)
 🎯 Reality Check
 
 If you love four distinct seasons without extreme heat or snow, Portland delivers. If you need sunshine year-round, consider this carefully.
-
-If you're looking to move to Portland, please look into my FREE Portland Relocation Guide:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

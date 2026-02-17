@@ -131,7 +131,3 @@ The decision should align with your lifestyle, work situation, and neighborhood 
 📍 Choosing the Right Neighborhood Matters
 
 The best way to decide whether you need a car is to choose your neighborhood intentionally.
-
-My relocation guide breaks down urban vs suburban trade-offs clearly:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

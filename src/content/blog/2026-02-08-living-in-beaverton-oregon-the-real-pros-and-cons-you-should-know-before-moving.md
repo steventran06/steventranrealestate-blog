@@ -159,11 +159,4 @@ With the right expectations and location, Beaverton can be an excellent long-ter
 
 * * *
 
-📍 Thinking About Moving to Beaverton or the Portland Metro?
-
-If you’re planning a move and want a detailed breakdown of Beaverton neighborhoods, housing costs, commute considerations, and what it actually takes to buy here, I put together a comprehensive relocation guide.
-
-You can access my Portland Metro Relocation Guide here:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)
-
 Having a clear plan before you move makes a big difference — especially in a competitive market.

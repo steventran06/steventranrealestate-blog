@@ -96,7 +96,3 @@ These suburbs are less ideal for daily tech corridor commuting but may appeal to
 If your job is in the Silicon Forest, staying on the west side (Hillsboro or Beaverton) typically makes the most practical sense.
 
 Remote tech workers have more flexibility — which opens up Vancouver, Camas, or even more rural options depending on lifestyle priorities.
-
-If you’re comparing suburbs and want clarity on commute patterns and pricing differences, my relocation guide breaks it down in detail:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

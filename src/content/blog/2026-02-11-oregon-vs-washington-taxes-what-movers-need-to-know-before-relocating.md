@@ -48,11 +48,3 @@ It depends on:
 • Your spending patterns
 
 There is no universal “better” state — only what aligns with your situation.
-
-* * *
-
-📍 Considering Both?
-
-This relocation guide breaks down Oregon and Washington suburbs side by side:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

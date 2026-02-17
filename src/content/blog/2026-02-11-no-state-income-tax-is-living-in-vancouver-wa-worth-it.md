@@ -66,11 +66,3 @@ Vancouver often benefits:
 • Fully remote workers  
 • High-income earners  
 • Buyers wanting newer construction
-
-* * *
-
-📍 Want a Full Breakdown?
-
-My relocation guide includes detailed Oregon vs Washington comparisons:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

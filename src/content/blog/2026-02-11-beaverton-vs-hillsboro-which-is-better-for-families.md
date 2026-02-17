@@ -54,6 +54,3 @@ Portland offers:
 Final Takeaway
 
 Choose Portland if you prioritize urban lifestyle and culture. Choose Beaverton if you want space, schools, and suburban calm.
-
-Planning a move? My relocation guide breaks down both in detail:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

@@ -55,9 +55,3 @@ Portland offers:
 🎯 Bottom Line
 
 For many Californians, Portland offers improved affordability and lifestyle balance — though it’s not “cheap.”
-
-* * *
-
-📍 Full Metro Breakdown Here:
-
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

@@ -56,10 +56,3 @@ People who do best:
 • Research neighborhoods deeply  
 • Prioritize lifestyle over hype  
 • Plan for long-term living
-
-* * *
-
-📍 Planning a Move?
-
-This guide walks through neighborhoods, suburbs, and common mistakes:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)

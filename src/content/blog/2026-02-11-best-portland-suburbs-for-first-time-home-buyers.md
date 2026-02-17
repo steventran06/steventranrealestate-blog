@@ -42,7 +42,4 @@ One often ignored city is Vancouver, WA, which has amazing benefits:
 *   A growing downtown and waterfront area that will add tons of value to the city
     
 
-Buying in the right suburb can set up strong long-term equity growth. I'm happy to help discussing each of these neighborhoods and why they would make a great fit. Take a look at my relocation guide below for more information.
-
-Relocation Guide:  
-[https://steventranrealestate.com?section=relocate](https://steventranrealestate.com?section=relocate)
+Buying in the right suburb can set up strong long-term equity growth. I'm happy to help discussing each of these neighborhoods and why they would make a great fit.
