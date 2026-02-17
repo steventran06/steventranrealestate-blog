@@ -2,7 +2,7 @@ name: Trigger Netlify Deploy
 
 on:
   schedule:
-    - cron: "0 15 */2 * *"   # 15:00 UTC ≈ 7:00 AM PST
+    - cron: "0 15 * * *"   # Daily ~7 AM Pacific
   workflow_dispatch:
 
 permissions:
