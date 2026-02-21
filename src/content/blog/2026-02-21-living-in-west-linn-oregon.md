@@ -6,6 +6,8 @@ title: Living in West Linn, Oregon
 slug: living-in-west-linn-oregon-pros-and-cons
 featured: false
 draft: false
+tags:
+  - west-linn
 description: Learn what living in West Linn, Oregon is like, including housing
   costs, schools, and suburban lifestyle trade-offs.
 ---
