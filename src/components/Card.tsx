@@ -9,27 +9,29 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime, description } = frontmatter;
+  const { title, pubDatetime, modDatetime, description, tags } = frontmatter;
 
-  const headerProps = {
-    style: { viewTransitionName: slugifyStr(title) },
-    className: "text-lg font-medium decoration-dashed hover:underline",
-  };
+  const Heading = secHeading ? "h2" : "h3";
 
   return (
-    <li className="my-6">
-      <a
-        href={href}
-        className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
-      >
-        {secHeading ? (
-          <h2 {...headerProps}>{title}</h2>
-        ) : (
-          <h3 {...headerProps}>{title}</h3>
-        )}
+    <li className="blog-card">
+      <a href={href} className="blog-card-link" aria-label={`Read ${title}`}>
+        <div className="blog-card-meta">
+          {tags?.[0] && <span className="blog-card-topic">{tags[0].replaceAll("-", " ")}</span>}
+          <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
+        </div>
+
+        <Heading
+          className="blog-card-title"
+          style={{ viewTransitionName: slugifyStr(title) }}
+        >
+          {title}
+        </Heading>
+
+        <p className="blog-card-description">{description}</p>
+
+        <span className="blog-card-read-more">Read Article →</span>
       </a>
-      <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
-      <p>{description}</p>
     </li>
   );
 }

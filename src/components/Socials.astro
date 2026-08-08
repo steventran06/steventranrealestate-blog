@@ -10,15 +10,18 @@ export interface Props {
 const { centered = false } = Astro.props;
 ---
 
-<div class={`social-icons ${centered ? "flex" : ""}`}>
+<div class:list={["social-icons", centered && "social-icons-centered"]}>
   {
     SOCIALS.filter(social => social.active).map(social => (
       <LinkButton
         href={social.href}
         className="link-button"
         title={social.linkTitle}
+        ariaLabel={social.linkTitle}
       >
-        <Fragment set:html={socialIcons[social.name]} />
+        <span class="social-icon-svg">
+          <Fragment set:html={socialIcons[social.name]} />
+        </span>
         <span class="sr-only">{social.linkTitle}</span>
       </LinkButton>
     ))
@@ -27,9 +30,33 @@ const { centered = false } = Astro.props;
 
 <style>
   .social-icons {
-    @apply flex-wrap justify-center gap-1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
   }
+
+  .social-icons-centered {
+    justify-content: center;
+  }
+
   .link-button {
-    @apply p-2 hover:rotate-6 sm:p-1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-icon-svg {
+    display: inline-flex;
+    width: 1.2rem;
+    height: 1.2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-icon-svg :global(svg) {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 </style>

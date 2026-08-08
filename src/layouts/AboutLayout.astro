@@ -1,6 +1,5 @@
 ---
 import { SITE } from "@config";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import Layout from "./Layout.astro";
@@ -13,16 +12,428 @@ export interface Props {
 }
 
 const { frontmatter } = Astro.props;
+
+const description =
+  frontmatter.description ??
+  "Learn more about Steven Tran, an Oregon and Washington real estate broker, investor and property manager serving Portland Metro and Southwest Washington.";
 ---
 
-<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+<Layout
+  title={`${frontmatter.title} | ${SITE.title}`}
+  description={description}
+>
   <Header activeNav="about" />
-  <Breadcrumbs />
+
   <main id="main-content">
-    <section id="about" class="prose mb-28 max-w-3xl prose-img:border-0">
-      <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
-      <slot />
+    <section class="about-page-hero">
+      <div class="site-container about-page-hero-inner">
+        <div class="about-page-hero-copy">
+          <div class="eyebrow">
+            About Steven Tran
+          </div>
+
+          <h1>
+            Local Real Estate Experience,
+            <span>
+              Built From the Investor Side First.
+            </span>
+          </h1>
+
+          <p>
+            Oregon and Washington real estate broker serving Portland Metro
+            and Southwest Washington, with hands-on experience as an investor,
+            property manager and real estate industry leader.
+          </p>
+
+          <div class="about-page-actions">
+            <a
+              class="site-button site-button-primary"
+              href="https://calendly.com/steven-diverserg/new-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Schedule a Call
+            </a>
+
+            <a
+              class="site-button site-button-secondary"
+              href="https://steventranrealestate.com/communities/"
+            >
+              Explore Communities
+            </a>
+          </div>
+        </div>
+
+        <div class="about-page-photo-wrap">
+          <div class="about-page-photo-accent"></div>
+
+          <img
+            class="about-page-photo"
+            src="/assets/steventran.jpeg"
+            alt="Steven Tran, Oregon and Washington real estate broker"
+          />
+        </div>
+      </div>
     </section>
+
+    <section class="page-section">
+      <div class="site-container">
+        <div class="about-page-content-grid">
+
+          <aside class="about-page-sidebar">
+            <div class="about-page-sidebar-card">
+              <div class="eyebrow">
+                Connect With Me
+              </div>
+
+              <h2>
+                Real Estate Resources &amp; Content
+              </h2>
+
+              <p>
+                Follow along for Portland Metro home tours, real estate tips,
+                local insights and resources for buyers, sellers and investors.
+              </p>
+
+              <div class="about-page-contact-list">
+
+                <!-- YouTube -->
+
+                <a
+                  href="https://youtube.com/@steventran_pdxrealtor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="about-link-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4L15.8 12l-6.2 3.6Z"
+                      />
+                    </svg>
+                  </span>
+
+                  <span>
+                    <strong>
+                      YouTube
+                    </strong>
+
+                    <small>
+                      Home Tours &amp; Real Estate Tips
+                    </small>
+                  </span>
+                </a>
+
+                <!-- Instagram -->
+
+                <a
+                  href="https://instagram.com/steventranpdx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="about-link-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm10.5 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
+                      />
+                    </svg>
+                  </span>
+
+                  <span>
+                    <strong>
+                      Instagram
+                    </strong>
+
+                    <small>
+                      @steventranpdx
+                    </small>
+                  </span>
+                </a>
+
+                <!-- Main Website -->
+
+                <a
+                  href="https://steventranrealestate.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="about-link-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 3 2 11h3v9h6v-6h2v6h6v-9h3L12 3Zm0 2.6 6 4.8V18h-3v-6H9v6H6v-7.6l6-4.8Z"
+                      />
+                    </svg>
+                  </span>
+
+                  <span>
+                    <strong>
+                      Steven Tran Real Estate
+                    </strong>
+
+                    <small>
+                      Main Website
+                    </small>
+                  </span>
+                </a>
+
+                <!-- Relocation Guide -->
+
+                <a
+                  href="https://steventranrealestate.com/#relocation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="about-link-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="m15 4 6-2v16l-6 2-6-2-6 2V4l6-2 6 2Zm-5-0.1v12.2l4 1.3V5.2l-4-1.3Zm6 1.3v12.5l3-1V4.2l-3 1Zm-8-1.3-3 1v12.5l3-1V3.9Z"
+                      />
+                    </svg>
+                  </span>
+
+                  <span>
+                    <strong>
+                      Portland Relocation Guide
+                    </strong>
+
+                    <small>
+                      Free Local Guide
+                    </small>
+                  </span>
+                </a>
+
+                <!-- Podcast -->
+
+                <a
+                  href="https://www.youtube.com/@realizedgainspodcast"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="about-link-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 2a4 4 0 0 1 4 4v6a4 4 0 1 1-8 0V6a4 4 0 0 1 4-4Zm-2 4v6a2 2 0 1 0 4 0V6a2 2 0 1 0-4 0Zm-4 5h2v1a4 4 0 0 0 8 0v-1h2v1a6 6 0 0 1-5 5.9V20h3v2H8v-2h3v-2.1A6 6 0 0 1 6 12v-1Z"
+                      />
+                    </svg>
+                  </span>
+
+                  <span>
+                    <strong>
+                      REalized Gains Podcast
+                    </strong>
+
+                    <small>
+                      Investing &amp; Entrepreneurship
+                    </small>
+                  </span>
+                </a>
+
+                <!-- Diverse Realty Group -->
+
+                <a
+                  href="https://steven.diverserg.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="about-link-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M4 3h10v6h6v12H4V3Zm2 2v14h3v-3h2v3h3V5H6Zm10 6v8h2v-8h-2ZM8 7h2v2H8V7Zm4 0h2v2h-2V7Zm-4 4h2v2H8v-2Zm4 0h2v2h-2v-2Z"
+                      />
+                    </svg>
+                  </span>
+
+                  <span>
+                    <strong>
+                      Diverse Realty Group
+                    </strong>
+
+                    <small>
+                      Brokerage
+                    </small>
+                  </span>
+                </a>
+
+              </div>
+            </div>
+          </aside>
+
+          <article class="about-page-prose prose">
+            <slot />
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section section-soft about-experience-section">
+      <div class="site-container">
+
+        <div class="section-heading centered-heading">
+          <div class="eyebrow">
+            Experience
+          </div>
+
+          <h2>
+            Real Estate From Multiple Perspectives
+          </h2>
+
+          <p>
+            My work with clients is informed by practical experience in
+            investing, property management, technology and industry leadership.
+          </p>
+        </div>
+
+        <div class="about-experience-grid">
+
+          <article class="about-experience-card">
+            <span class="about-experience-number">
+              01
+            </span>
+
+            <h3>
+              Real Estate Broker
+            </h3>
+
+            <p>
+              Licensed in Oregon and Washington and serving clients throughout
+              Portland Metro and Southwest Washington.
+            </p>
+          </article>
+
+          <article class="about-experience-card">
+            <span class="about-experience-number">
+              02
+            </span>
+
+            <h3>
+              Investor + Property Manager
+            </h3>
+
+            <p>
+              Hands-on experience with multifamily properties, rentals,
+              renovations and evaluating long-term real estate opportunities.
+            </p>
+          </article>
+
+          <article class="about-experience-card">
+            <span class="about-experience-number">
+              03
+            </span>
+
+            <h3>
+              Industry + Community Leadership
+            </h3>
+
+            <p>
+              Active in local and state real estate leadership, including
+              AREAA Portland and Oregon REALTORS®.
+            </p>
+          </article>
+
+          <article class="about-experience-card">
+            <span class="about-experience-number">
+              04
+            </span>
+
+            <h3>
+              Business + Technology Background
+            </h3>
+
+            <p>
+              A background in business marketing, internet marketing and
+              software engineering shapes a practical, data-driven approach.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="about-page-cta-section">
+      <div class="site-container">
+
+        <div class="about-page-cta">
+
+          <div>
+            <div class="eyebrow eyebrow-light">
+              Thinking About Portland?
+            </div>
+
+            <h2>
+              Start With My Free Portland Relocation Guide
+            </h2>
+
+            <p>
+              Compare neighborhoods, suburbs and practical local information
+              before you make your move.
+            </p>
+          </div>
+
+          <div class="about-page-cta-actions">
+
+            <a
+              class="site-button site-button-primary"
+              href="https://steventranrealestate.com/#relocation"
+            >
+              Get the Relocation Guide
+            </a>
+
+            <a
+              class="site-button site-button-light"
+              href="https://youtube.com/@steventran_pdxrealtor"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Watch on YouTube
+            </a>
+
+            <a
+              class="site-button site-button-light"
+              href="https://steventranrealestate.com/communities/"
+            >
+              Explore Communities
+            </a>
+
+            <a
+              class="site-button site-button-light"
+              href="https://calendly.com/steven-diverserg/new-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Schedule a Call
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
   </main>
+
   <Footer />
 </Layout>

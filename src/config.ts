@@ -1,19 +1,19 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://steventranrealestate.com", // replace this with your deployed domain
+  website: "https://steventranrealestate.com",
   author: "Steven Tran",
-  desc: "Serving Portland Metro and Southwest Washington. First-time buyers, move-up buyers, and real estate investors—plus a free Portland Relocation Guide.",
-  title: "Steven Tran | Blog",
+  desc: "Portland Metro and Southwest Washington real estate insights, relocation guides, market updates, homebuyer resources, new construction, and investing information from Steven Tran.",
+  title: "Steven Tran Real Estate Blog",
   ogImage: "linkpreview.png",
-  lightAndDarkMode: true,
-  postPerPage: 3,
-  scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
+  lightAndDarkMode: false,
+  postPerPage: 6,
+  scheduledPostMargin: 15 * 60 * 1000,
 };
 
 export const LOCALE = {
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  lang: "en",
+  langTag: ["en-US"],
 } as const;
 
 export const LOGO_IMAGE = {

@@ -1,72 +1,163 @@
 ---
-// Remove current url path and remove trailing slash if exists
+// Remove the trailing slash while preserving the root path.
 const currentUrlPath = Astro.url.pathname.replace(/\/+$/, "");
 
-// Get url array from path
-// eg: /tags/tailwindcss => ['tags', 'tailwindcss']
-const breadcrumbList = currentUrlPath.split("/").slice(1);
+// Example: /tags/tailwindcss => ["tags", "tailwindcss"]
+const breadcrumbList = currentUrlPath.split("/").filter(Boolean);
 
-// if breadcrumb is Home > Posts > 1 <etc>
-// replace Posts with Posts (page number)
-breadcrumbList[0] === "posts" &&
-  breadcrumbList.splice(0, 2, `Posts (page ${breadcrumbList[1] || 1})`);
+// Posts pagination:
+// /posts/2 => Posts (page 2)
+if (breadcrumbList[0] === "posts" && breadcrumbList.length > 1) {
+  breadcrumbList.splice(
+    0,
+    2,
+    `Posts (page ${breadcrumbList[1] || 1})`
+  );
+}
 
-// if breadcrumb is Home > Tags > [tag] > [page] <etc>
-// replace [tag] > [page] with [tag] (page number)
-breadcrumbList[0] === "tags" &&
-  !isNaN(Number(breadcrumbList[2])) &&
+// Tag pagination:
+// /tags/portland/2 => portland (page 2)
+if (
+  breadcrumbList[0] === "tags" &&
+  !isNaN(Number(breadcrumbList[2]))
+) {
   breadcrumbList.splice(
     1,
     3,
     `${breadcrumbList[1]} ${
-      Number(breadcrumbList[2]) === 1 ? "" : "(page " + breadcrumbList[2] + ")"
+      Number(breadcrumbList[2]) === 1
+        ? ""
+        : `(page ${breadcrumbList[2]})`
     }`
   );
+}
+
+function formatBreadcrumb(value: string) {
+  return decodeURIComponent(value)
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, char => char.toUpperCase());
+}
 ---
 
-<nav class="breadcrumb" aria-label="breadcrumb">
-  <ul>
-    <li>
-      <a href="/">Home</a>
-      <span aria-hidden="true">&raquo;</span>
-    </li>
-    {
-      breadcrumbList.map((breadcrumb, index) =>
-        index + 1 === breadcrumbList.length ? (
-          <li>
-            <span
-              class={`${index > 0 ? "lowercase" : "capitalize"}`}
-              aria-current="page"
-            >
-              {/* make the last part lowercase in Home > Tags > some-tag */}
-              {decodeURIComponent(breadcrumb)}
-            </span>
-          </li>
-        ) : (
-          <li>
-            <a href={`/${breadcrumb}/`}>{breadcrumb}</a>
-            <span aria-hidden="true">&raquo;</span>
-          </li>
-        )
-      )
-    }
-  </ul>
-</nav>
+{
+  breadcrumbList.length > 0 && (
+    <nav
+      class="breadcrumb"
+      aria-label="Breadcrumb"
+    >
+      <ol>
+        <li>
+          <a href="/">Home</a>
+        </li>
+
+        {breadcrumbList.map((breadcrumb, index) => {
+          const isLast =
+            index === breadcrumbList.length - 1;
+
+          return (
+            <li>
+              <span
+                class="breadcrumb-separator"
+                aria-hidden="true"
+              >
+                /
+              </span>
+
+              {isLast ? (
+                <span
+                  class="breadcrumb-current"
+                  aria-current="page"
+                >
+                  {formatBreadcrumb(breadcrumb)}
+                </span>
+              ) : (
+                <a
+                  href={`/${breadcrumb}/`}
+                >
+                  {formatBreadcrumb(breadcrumb)}
+                </a>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
+  )
+}
 
 <style>
   .breadcrumb {
-    @apply mx-auto mb-1 mt-8 w-full max-w-3xl px-4;
+    width: 100%;
+    margin: 24px 0 14px;
+    padding: 0;
   }
-  .breadcrumb ul li {
-    @apply inline;
+
+  .breadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
   }
-  .breadcrumb ul li a {
-    @apply capitalize opacity-70;
+
+  .breadcrumb li {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
   }
-  .breadcrumb ul li span {
-    @apply opacity-70;
+
+  .breadcrumb a,
+  .breadcrumb-current,
+  .breadcrumb-separator {
+    font-family:
+      "Open Sans",
+      sans-serif;
+
+    font-size: 13px;
+    line-height: 1.4;
   }
-  .breadcrumb ul li:not(:last-child) a {
-    @apply hover:opacity-100;
+
+  .breadcrumb a {
+    color: var(--text-secondary);
+    font-weight: 600;
+    text-decoration: none;
+
+    transition:
+      color 160ms ease;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--brand-primary);
+  }
+
+  .breadcrumb-current {
+    color: var(--text-primary);
+    font-weight: 700;
+  }
+
+  .breadcrumb-separator {
+    color: #aab2bc;
+    font-weight: 400;
+  }
+
+  @media (max-width: 767.98px) {
+    .breadcrumb {
+      margin-top: 18px;
+    }
+
+    .breadcrumb a,
+    .breadcrumb-current,
+    .breadcrumb-separator {
+      font-size: 12px;
+    }
   }
 </style>

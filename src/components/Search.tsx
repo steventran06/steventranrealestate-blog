@@ -1,5 +1,5 @@
 import Fuse from "fuse.js";
-import { useEffect, useRef, useState, useMemo } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Card from "@components/Card";
 import type { CollectionEntry } from "astro:content";
 
@@ -26,10 +26,6 @@ export default function SearchBar({ searchList }: Props) {
     null
   );
 
-  const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
-    setInputVal(e.currentTarget.value);
-  };
-
   const fuse = useMemo(
     () =>
       new Fuse(searchList, {
@@ -41,74 +37,103 @@ export default function SearchBar({ searchList }: Props) {
     [searchList]
   );
 
+  const handleChange = (event: React.FormEvent<HTMLInputElement>) => {
+    setInputVal(event.currentTarget.value);
+  };
+
   useEffect(() => {
-    // if URL has search query,
-    // insert that search query in input field
     const searchUrl = new URLSearchParams(window.location.search);
     const searchStr = searchUrl.get("q");
-    if (searchStr) setInputVal(searchStr);
 
-    // put focus cursor at the end of the string
-    setTimeout(function () {
-      inputRef.current!.selectionStart = inputRef.current!.selectionEnd =
-        searchStr?.length || 0;
+    if (searchStr) {
+      setInputVal(searchStr);
+    }
+
+    setTimeout(() => {
+      if (!inputRef.current) return;
+
+      const cursorPosition = searchStr?.length || 0;
+      inputRef.current.selectionStart = cursorPosition;
+      inputRef.current.selectionEnd = cursorPosition;
     }, 50);
   }, []);
 
   useEffect(() => {
-    // Add search result only if
-    // input value is more than one character
-    let inputResult = inputVal.length > 1 ? fuse.search(inputVal) : [];
+    const inputResult =
+      inputVal.length > 1
+        ? fuse.search(inputVal)
+        : [];
+
     setSearchResults(inputResult);
 
-    // Update search string in URL
     if (inputVal.length > 0) {
       const searchParams = new URLSearchParams(window.location.search);
       searchParams.set("q", inputVal);
+
       const newRelativePathQuery =
-        window.location.pathname + "?" + searchParams.toString();
-      history.replaceState(history.state, "", newRelativePathQuery);
+        window.location.pathname +
+        "?" +
+        searchParams.toString();
+
+      history.replaceState(
+        history.state,
+        "",
+        newRelativePathQuery
+      );
     } else {
-      history.replaceState(history.state, "", window.location.pathname);
+      history.replaceState(
+        history.state,
+        "",
+        window.location.pathname
+      );
     }
-  }, [inputVal]);
+  }, [inputVal, fuse]);
 
   return (
-    <>
-      <label className="relative block">
-        <span className="absolute inset-y-0 left-0 flex items-center pl-2 opacity-75">
-          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path>
+    <div className="site-search">
+      <label className="site-search-field">
+        <span className="site-search-icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            focusable="false"
+          >
+            <path
+              d="m21 21-4.35-4.35m1.35-5.65a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
           </svg>
-          <span className="sr-only">Search</span>
         </span>
+
+        <span className="sr-only">
+          Search articles
+        </span>
+
         <input
-          className="block w-full rounded border border-skin-fill 
-        border-opacity-40 bg-skin-fill py-3 pl-10
-        pr-3 placeholder:italic placeholder:text-opacity-75 
-        focus:border-skin-accent focus:outline-none"
-          placeholder="Search for anything..."
-          type="text"
+          ref={inputRef}
+          className="site-search-input"
+          placeholder="Search articles..."
+          type="search"
           name="search"
           value={inputVal}
           onChange={handleChange}
           autoComplete="off"
-          // autoFocus
-          ref={inputRef}
         />
       </label>
 
       {inputVal.length > 1 && (
-        <div className="mt-8">
-          Found {searchResults?.length}
-          {searchResults?.length && searchResults?.length === 1
+        <div className="site-search-count">
+          Found {searchResults?.length ?? 0}
+          {(searchResults?.length ?? 0) === 1
             ? " result"
             : " results"}{" "}
-          for '{inputVal}'
+          for “{inputVal}”
         </div>
       )}
 
-      <ul>
+      <div className="site-search-results">
         {searchResults &&
           searchResults.map(({ item, refIndex }) => (
             <Card
@@ -117,7 +142,7 @@ export default function SearchBar({ searchList }: Props) {
               key={`${refIndex}-${item.slug}`}
             />
           ))}
-      </ul>
-    </>
+      </div>
+    </div>
   );
 }

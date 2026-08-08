@@ -1,151 +1,298 @@
 ---
 import { getCollection } from "astro:content";
-import { Image } from 'astro:assets';
-import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
-import LinkButton from "@components/LinkButton.astro";
-import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
-import Socials from "@components/Socials.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+import { SITE } from "@config";
 import getSortedPosts from "@utils/getSortedPosts";
-import { SOCIALS } from "@config";
 
-const posts = await getCollection("blog");
+const allPosts = await getCollection("blog");
+const sortedPosts = getSortedPosts(allPosts);
 
-const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const featuredPosts = sortedPosts
+  .filter(({ data }) => data.featured)
+  .slice(0, 3);
 
-const socialCount = SOCIALS.filter(social => social.active).length;
+const recentPosts = sortedPosts.slice(0, 6);
+
+const topicLinks = [
+  {
+    title: "Relocation",
+    href: "/tags/relocation/",
+    description:
+      "Moving to Portland or Southwest Washington? Start here."
+  },
+  {
+    title: "Portland",
+    href: "/tags/portland/",
+    description:
+      "Neighborhoods, housing and local market insights."
+  },
+  {
+    title: "Home Buying",
+    href: "/tags/home-buying/",
+    description:
+      "Practical guidance for making a smarter purchase."
+  },
+  {
+    title: "New Construction",
+    href: "/tags/new-construction/",
+    description:
+      "Builders, incentives, communities and new homes."
+  },
+  {
+    title: "Investing",
+    href: "/tags/real-estate-investing/",
+    description:
+      "Rental property, numbers and long-term strategy."
+  },
+  {
+    title: "Southwest Washington",
+    href: "/tags/washington/",
+    description:
+      "Vancouver, Camas and communities north of Portland."
+  }
+];
 ---
 
-<Layout>
+<Layout
+  title={`${SITE.title} | Portland Real Estate Blog`}
+  description="Portland Metro and Southwest Washington real estate insights, local guides, relocation advice, homebuyer resources, new construction and investing."
+>
   <Header />
-  <main id="main-content">
-    <section id="hero">
-      <h1>Welcome!</h1>
 
-      <Image
-        src="/assets/portland.png"
-        alt="Steven Tran - Oregon & Washington Real Estate Broker"
-        width="736"
-        height="491"
+  <main id="main-content">
+
+    <!-- HERO -->
+
+    <section class="blog-home-hero">
+      <img
+        class="blog-home-hero-image"
+        src="/assets/oregon-hero.png"
+        alt="Portland Oregon"
+        loading="eager"
+        fetchpriority="high"
       />
 
-      <p>
-        If you’re planning a move to the Portland Metro or Southwest Washington, this blog is here to help you understand the area before you arrive. I write about relocating to Portland and surrounding cities like Beaverton, Hillsboro, Vancouver, WA, Camas, and nearby communities—covering lifestyle differences, housing considerations, and local market context.
-      </p>
-      <p>
-        I’m Steven Tran, a real estate broker licensed in Oregon and Washington, and a longtime Pacific Northwest local. Through my work with relocating buyers, homeowners, and investors, I’ve seen how much easier a move becomes when you have the right local information upfront. This blog is designed to answer common questions, break down your options, and help you feel confident about where—and how—you choose to move.
-      </p>
-      <p>
-        Browse the latest blog posts below, or get my
-        <a href="https://steventranrealestate.com/?section=relocation" target="_blank">FREE Portland Relocation Guide</a>
-        to compare neighborhoods, suburbs, and pricing across the Portland Metro.
-      </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
-            <Socials />
+      <div class="blog-home-hero-overlay"></div>
+
+      <div class="blog-home-hero-inner">
+        <div class="blog-home-hero-copy">
+          <div class="eyebrow eyebrow-light">
+            Portland Real Estate Blog
           </div>
-        )
-      }
+
+          <h1>
+            Portland Metro &amp; Southwest Washington
+            <span>Real Estate Insights</span>
+          </h1>
+
+          <p>
+            Local market updates, home buying advice, relocation resources,
+            community guides, new construction and real estate investing.
+          </p>
+
+          <div class="blog-home-hero-actions">
+            <a
+              class="site-button site-button-primary"
+              href="/posts/"
+            >
+              Browse Articles
+            </a>
+
+            <a
+              class="site-button site-button-light"
+              href="https://steventranrealestate.com/#relocation"
+            >
+              Portland Relocation Guide
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <Hr />
+
+    <!-- FEATURED -->
 
     {
       featuredPosts.length > 0 && (
-        <>
-          <section id="featured">
-            <h2>Featured</h2>
-            <ul>
-              {featuredPosts.map(({ data, slug }) => (
-                <Card
-                  href={`/posts/${slug}/`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
-            </ul>
-          </section>
-          {recentPosts.length > 0 && <Hr />}
-        </>
-      )
-    }
+        <section class="page-section">
+          <div class="site-container">
 
-    {
-      recentPosts.length > 0 && (
-        <section id="recent-posts">
-          <h2>Recent Posts</h2>
-          <ul>
-            {recentPosts.map(
-              ({ data, slug }, index) =>
-                index < 4 && (
+            <div class="section-heading">
+              <div class="eyebrow">
+                Featured
+              </div>
+
+              <h2>
+                Start Here
+              </h2>
+
+              <p>
+                In-depth guides and resources for buying,
+                relocating and investing around Portland Metro
+                and Southwest Washington.
+              </p>
+            </div>
+
+            <div class="featured-post-grid">
+              {
+                featuredPosts.map(post => (
                   <Card
-                    href={`/posts/${slug}/`}
-                    frontmatter={data}
-                    secHeading={false}
+                    href={`/posts/${post.slug}/`}
+                    frontmatter={post.data}
                   />
-                )
-            )}
-          </ul>
+                ))
+              }
+            </div>
+
+          </div>
         </section>
       )
     }
 
-    <div class="all-posts-btn-wrapper">
-      <LinkButton href="/posts/">
-        All Posts
-        <svg xmlns="http://www.w3.org/2000/svg"
-          ><path
-            d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-          ></path>
-        </svg>
-      </LinkButton>
-    </div>
+
+    <!-- RECENT POSTS -->
+
+    <section class="page-section section-soft">
+      <div class="site-container">
+
+        <div class="section-heading section-heading-row">
+
+          <div>
+            <div class="eyebrow">
+              Latest From The Blog
+            </div>
+
+            <h2>
+              Recent Articles
+            </h2>
+          </div>
+
+          <a
+            class="text-link"
+            href="/posts/"
+          >
+            View All Articles →
+          </a>
+
+        </div>
+
+        <div class="post-grid">
+          {
+            recentPosts.map(post => (
+              <Card
+                href={`/posts/${post.slug}/`}
+                frontmatter={post.data}
+              />
+            ))
+          }
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- TOPICS -->
+
+    <section class="page-section">
+      <div class="site-container">
+
+        <div class="section-heading centered-heading">
+          <div class="eyebrow">
+            Explore By Topic
+          </div>
+
+          <h2>
+            Find What You're Looking For
+          </h2>
+
+          <p>
+            Browse real estate information based on where
+            you are in your home buying, relocation or
+            investing journey.
+          </p>
+        </div>
+
+        <div class="topic-grid">
+          {
+            topicLinks.map(topic => (
+              <a
+                class="topic-card"
+                href={topic.href}
+              >
+                <h3>
+                  {topic.title}
+                </h3>
+
+                <p>
+                  {topic.description}
+                </p>
+
+                <span>
+                  Explore Topic →
+                </span>
+              </a>
+            ))
+          }
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- RELOCATION CTA -->
+
+    <section class="relocation-cta-section">
+      <div class="site-container">
+
+        <div class="relocation-cta">
+
+          <div class="relocation-cta-copy">
+
+            <div class="eyebrow eyebrow-light">
+              Moving To Portland?
+            </div>
+
+            <h2>
+              Start With My Free Portland Relocation Guide
+            </h2>
+
+            <p>
+              Get practical information about Portland-area
+              neighborhoods, suburbs, housing and what to
+              consider before making your move.
+            </p>
+
+          </div>
+
+          <div class="relocation-cta-actions">
+
+            <a
+              class="site-button site-button-primary"
+              href="https://steventranrealestate.com/#relocation"
+            >
+              Get the Free Guide
+            </a>
+
+            <a
+              class="site-button site-button-light"
+              href="https://calendly.com/steven-diverserg/new-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Schedule a Call
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
   <Footer />
 </Layout>
-
-<style>
-  /* ===== Hero Section ===== */
-  #hero {
-    @apply pb-6 pt-8;
-  }
-  #hero h1 {
-    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
-  }
-  #hero .rss-link {
-    @apply mb-6;
-  }
-  #hero .rss-icon {
-    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
-  }
-  #hero p {
-    @apply my-2;
-  }
-  .social-wrapper {
-    @apply mt-4 flex flex-col sm:flex-row sm:items-center;
-  }
-  .social-links {
-    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
-  }
-
-  /* ===== Featured & Recent Posts Sections ===== */
-  #featured,
-  #recent-posts {
-    @apply pb-6 pt-12;
-  }
-  #featured h2,
-  #recent-posts h2 {
-    @apply text-2xl font-semibold tracking-wide;
-  }
-  .all-posts-btn-wrapper {
-    @apply my-8 text-center;
-  }
-</style>
