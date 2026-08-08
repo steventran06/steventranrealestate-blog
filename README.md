@@ -1,158 +1,988 @@
-# AstroPaper 📄
+# Steven Tran Real Estate Blog
 
-![AstroPaper](public/astropaper-og.jpg)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+Long-form real estate content site for Steven Tran Real Estate.
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+The blog covers Portland Metro and Southwest Washington real estate, relocation, home buying, neighborhoods, new construction, market trends, homebuyer programs, and real estate investing.
 
-This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
-
-## 🔥 Features
-
-- [x] type-safe markdown
-- [x] super fast performance
-- [x] accessible (Keyboard/VoiceOver)
-- [x] responsive (mobile ~ desktops)
-- [x] SEO-friendly
-- [x] light & dark mode
-- [x] fuzzy search
-- [x] draft posts & pagination
-- [x] sitemap & rss feed
-- [x] followed best practices
-- [x] highly customizable
-- [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
-
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
-
-## ✅ Lighthouse Score
-
-<p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
-    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  <a>
-</p>
-
-## 🚀 Project Structure
-
-Inside of AstroPaper, you'll see the following folders and files:
-
-```bash
-/
-├── public/
-│   ├── assets/
-│   │   └── logo.svg
-│   │   └── logo.png
-│   └── favicon.ico
-│   └── astropaper-og.jpg
-│   └── robots.txt
-│   └── toggle-theme.js
-├── src/
-│   ├── assets/
-│   │   └── socialIcons.ts
-│   ├── components/
-│   ├── content/
-│   │   |  blog/
-│   │   |    └── some-blog-posts.md
-│   │   └── config.ts
-│   ├── layouts/
-│   └── pages/
-│   └── styles/
-│   └── utils/
-│   └── config.ts
-│   └── types.ts
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-All blog posts are stored in `src/content/blog` directory.
-
-## 📖 Documentation
-
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
-
-- Configuration - [markdown](src/content/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-> For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
-
-## 💻 Tech Stack
-
-**Main Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Component Framework** - [ReactJS](https://reactjs.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma](https://figma.com)  
-**Fuzzy Search** - [FuseJS](https://fusejs.io/)  
-**Icons** - [Boxicons](https://boxicons.com/) | [Tablers](https://tabler-icons.io/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)  
-**Linting** - [ESLint](https://eslint.org)
-
-## 👨🏻‍💻 Running Locally
-
-The easiest way to run this project locally is to run the following command in your desired directory.
-
-```bash
-# npm 6.x
-npm create astro@latest --template satnaing/astro-paper
-
-# npm 7+, extra double-dash is needed:
-npm create astro@latest -- --template satnaing/astro-paper
-
-# yarn
-yarn create astro --template satnaing/astro-paper
-```
-
-## Google Site Verification (optional)
-
-You can easily add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) in AstroPaper using environment variable. This step is optional. If you don't add the following env variable, the google-site-verification tag won't appear in the html `<head>` section.
-
-```bash
-# in your environment variable file (.env)
-PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
-```
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-> **_Note!_** For `Docker` commands we must have it [installed](https://docs.docker.com/engine/install/) in your machine.
-
-| Command                              | Action                                                                                                                           |
-| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `npm install`                        | Installs dependencies                                                                                                            |
-| `npm run dev`                        | Starts local dev server at `localhost:4321`                                                                                      |
-| `npm run build`                      | Build your production site to `./dist/`                                                                                          |
-| `npm run preview`                    | Preview your build locally, before deploying                                                                                     |
-| `npm run format:check`               | Check code format with Prettier                                                                                                  |
-| `npm run format`                     | Format codes with Prettier                                                                                                       |
-| `npm run sync`                       | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `npm run cz`                         | Commit code changes with commitizen                                                                                              |
-| `npm run lint`                       | Lint with ESLint                                                                                                                 |
-| `docker compose up -d`               | Run AstroPaper on docker, You can access with the same hostname and port informed on `dev` command.                              |
-| `docker compose run app npm install` | You can run any command above into the docker container.                                                                         |
-
-> **_Warning!_** Windows PowerShell users may need to install the [concurrently package](https://www.npmjs.com/package/concurrently) if they want to [run diagnostics](https://docs.astro.build/en/reference/cli-reference/#astro-check) during development (`astro check --watch & astro dev`). For more info, see [this issue](https://github.com/satnaing/astro-paper/issues/113).
-
-## ✨ Feedback & Suggestions
-
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@satnaing.dev). Alternatively, feel free to open an issue if you find bugs or want to request new features.
-
-## 📜 License
-
-Licensed under the MIT License, Copyright © 2023
+The blog is designed to complement the primary website at steventranrealestate.com while remaining a separate Astro project and deployment.
 
 ---
 
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+# Overview
+
+This repository powers the article and educational content side of Steven Tran Real Estate.
+
+The blog includes:
+
+* Real estate articles
+* Portland relocation content
+* Local market reports
+* Homebuyer education
+* Neighborhood and community information
+* New construction content
+* Down payment assistance resources
+* Real estate investing content
+* Topic/tag archives
+* Search
+* Featured articles
+* About page
+* Links back to the primary real estate website
+
+The site began with AstroPaper and has been customized substantially to better match the design and branding of steventranrealestate.com.
+
+Because of that history, some older AstroPaper components or styles may still exist in the repository even when the visible site uses newer custom components.
+
+---
+
+# Technology
+
+The blog uses:
+
+* Astro
+* TypeScript / JavaScript
+* Astro Content Collections
+* Markdown
+* React where required by interactive components
+* CSS
+* Fuse.js for search
+* Jampack
+* Netlify
+* Git / GitHub
+
+---
+
+# Project Structure
+
+The exact structure may evolve, but the important directories are:
+
+```text
+steventranrealestate-blog/
+│
+├── public/
+│   └── assets/
+│       ├── oregon-hero.png
+│       └── ...
+│
+├── src/
+│   ├── components/
+│   │   ├── Breadcrumbs.astro
+│   │   ├── Card.astro
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   ├── Pagination.astro
+│   │   ├── Search.tsx
+│   │   └── ...
+│   │
+│   ├── content/
+│   │   └── blog/
+│   │       └── *.md
+│   │
+│   ├── layouts/
+│   │   └── ...
+│   │
+│   ├── pages/
+│   │   ├── index.astro
+│   │   ├── about.astro
+│   │   ├── posts/
+│   │   ├── tags/
+│   │   └── search.astro
+│   │
+│   └── styles/
+│       └── base.css
+│
+├── astro.config.ts
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+---
+
+# Local Development
+
+## Requirements
+
+Install Node.js.
+
+A current Node LTS release is recommended.
+
+Check your versions:
+
+```bash
+node --version
+npm --version
+```
+
+---
+
+# Clone the Repository
+
+```bash
+git clone <BLOG_REPOSITORY_URL>
+cd steventranrealestate-blog
+```
+
+Replace `<BLOG_REPOSITORY_URL>` with the actual GitHub repository URL if necessary.
+
+---
+
+# Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+# Start the Development Server
+
+```bash
+npm run dev
+```
+
+Astro normally starts the local site at:
+
+```text
+http://localhost:4321
+```
+
+Astro will display the actual local URL in the terminal.
+
+---
+
+# Production Build
+
+Before committing or deploying significant changes, run:
+
+```bash
+npm run build
+```
+
+The current production build runs Astro and then Jampack.
+
+Conceptually:
+
+```text
+Markdown/content
+       ↓
+Astro build
+       ↓
+dist/
+       ↓
+Jampack optimization
+       ↓
+Netlify
+```
+
+The generated production site is stored in:
+
+```text
+dist/
+```
+
+---
+
+# Previewing the Production Build
+
+If supported by the current package scripts, run:
+
+```bash
+npm run preview
+```
+
+This is useful for checking the production-generated version rather than only relying on Astro's development server.
+
+---
+
+# Blog Content
+
+Blog articles are stored in:
+
+```text
+src/content/blog/
+```
+
+Each article is a Markdown file with frontmatter used by Astro's content collection.
+
+A typical article may look conceptually like:
+
+```markdown
+---
+title: "Example Article"
+description: "Short description of the article."
+pubDatetime: 2026-08-08T08:00:00Z
+featured: false
+draft: false
+tags:
+  - portland
+  - home-buying
+---
+
+Article content goes here.
+```
+
+Use the existing articles as the authoritative reference for the exact frontmatter schema expected by the project.
+
+---
+
+# Slugs
+
+Every Astro content entry must have a unique slug.
+
+This is especially important when automated processes create multiple versions of a report.
+
+For example, these two files can still conflict:
+
+```text
+2026-08-07-portland-metro-buyer-opportunity-report-july-2026.md
+2026-08-08-portland-metro-buyer-opportunity-report-july-2026.md
+```
+
+if both resolve to:
+
+```text
+portland-metro-buyer-opportunity-report-july-2026
+```
+
+Astro will stop the build with:
+
+```text
+DuplicateContentEntrySlugError
+```
+
+If that happens:
+
+1. Determine whether one article is an outdated duplicate.
+2. Delete the duplicate if appropriate.
+3. Otherwise assign the articles different slugs.
+
+Do not publish duplicate versions of the same article simply to make the build succeed.
+
+---
+
+# Draft Articles
+
+When the content schema supports a `draft` property, use it to prevent unfinished articles from being treated as normal published content.
+
+Always verify the project's current filtering logic before assuming draft posts are excluded everywhere.
+
+---
+
+# Featured Articles
+
+The homepage retrieves published blog entries and identifies articles whose frontmatter contains:
+
+```yaml
+featured: true
+```
+
+Featured articles are displayed in the:
+
+```text
+Featured
+Start Here
+```
+
+section of the homepage.
+
+Keep the number of featured articles intentional. The homepage currently works best with approximately three primary featured resources.
+
+---
+
+# Recent Articles
+
+The homepage also displays the newest articles based on the site's sorting logic.
+
+The relevant logic is located in:
+
+```text
+src/pages/index.astro
+```
+
+and supporting utilities such as:
+
+```text
+src/utils/
+```
+
+The homepage should not require manually adding every new article.
+
+New published posts should automatically flow into the recent article section when the build runs.
+
+---
+
+# Topics and Tags
+
+Articles can be organized using tags.
+
+Topic pages provide visitors with a way to browse content by subject, including areas such as:
+
+* relocation
+* Portland
+* home buying
+* new construction
+* real estate investing
+* Southwest Washington
+
+When adding tags, use consistent naming.
+
+Avoid creating nearly identical tags such as:
+
+```text
+homebuyer
+home-buyers
+home-buying
+buying-a-home
+```
+
+unless there is a deliberate content strategy requiring separate archives.
+
+---
+
+# Search
+
+The blog search experience uses Fuse.js.
+
+The primary interactive search component is:
+
+```text
+src/components/Search.tsx
+```
+
+Search runs against the site's available article data rather than requiring an external hosted search provider.
+
+When modifying search styling, be careful with global SVG rules. The search icon has previously been affected by generic site-wide SVG styling.
+
+Prefer component-specific selectors such as:
+
+```css
+.site-search .site-search-icon svg
+```
+
+instead of changing every SVG globally.
+
+---
+
+# Homepage Hero
+
+The homepage hero uses:
+
+```text
+public/assets/oregon-hero.png
+```
+
+Public Astro assets can be referenced from the root:
+
+```html
+<img src="/assets/oregon-hero.png" alt="Portland Oregon">
+```
+
+The image should therefore be available locally at:
+
+```text
+http://localhost:4321/assets/oregon-hero.png
+```
+
+If the image does not appear, test that URL directly.
+
+A 404 normally means:
+
+* the file is not in `public/assets/`
+* the filename is incorrect
+* capitalization does not match
+
+Remember that production environments can be case-sensitive even when a local filesystem appears forgiving.
+
+---
+
+# Homepage Structure
+
+The homepage currently contains several major sections:
+
+```text
+Hero
+↓
+Featured / Start Here
+↓
+Recent Articles
+↓
+Explore By Topic
+↓
+Moving to Portland CTA
+↓
+Footer
+```
+
+The hero should remain visually independent from the article-card grids.
+
+Avoid changing generic card or grid styles merely to adjust the hero.
+
+---
+
+# Article Cards
+
+The homepage uses reusable article cards.
+
+Desktop layouts are intended to display multiple cards per row.
+
+The typical responsive pattern is:
+
+```text
+Desktop: 3 columns
+Tablet:  2 columns
+Mobile:  1 column
+```
+
+The Featured and Recent sections should not become full-width single-card rows on desktop unless intentionally redesigned.
+
+Be careful with global rules such as:
+
+```css
+display: block;
+width: 100%;
+```
+
+when they target elements used inside card grids.
+
+---
+
+# Topic Cards
+
+The:
+
+```text
+Find What You're Looking For
+```
+
+section uses dedicated topic cards.
+
+These are separate from article cards and should retain:
+
+* card backgrounds
+* borders
+* spacing
+* descriptions
+* topic links
+* hover states
+
+The layout should generally use:
+
+```text
+Desktop: 3 columns
+Tablet:  2 columns
+Mobile:  1 column
+```
+
+---
+
+# Moving to Portland CTA
+
+The bottom homepage CTA promotes the Portland relocation guide.
+
+It is intentionally presented as a larger visual block rather than ordinary article content.
+
+Desktop:
+
+```text
+Copy                           Actions
+Moving to Portland?            Get the Free Guide
+Description                    Schedule a Call
+```
+
+Tablet and mobile layouts stack as space becomes limited.
+
+---
+
+# Header
+
+The blog header is designed to visually connect the blog with the primary Steven Tran Real Estate website.
+
+The brand area uses the Steven Tran Real Estate logo with:
+
+```text
+REAL ESTATE BLOG
+```
+
+beneath it.
+
+Primary navigation may include links such as:
+
+```text
+Real Estate
+Communities
+Articles
+Topics
+About
+Search
+Schedule a Call
+```
+
+The `Real Estate` navigation item links back to:
+
+```text
+steventranrealestate.com
+```
+
+This wording is preferred over `Main Site` because it describes the destination from the visitor's perspective.
+
+---
+
+# About Page
+
+The About page contains the more personal introduction to Steven Tran.
+
+The homepage intentionally focuses on Portland real estate content rather than using a large personal portrait.
+
+The About page can contain:
+
+* professional background
+* Portland connection
+* real estate experience
+* investment experience
+* analytical approach to home buying
+* YouTube content
+* social links
+* brokerage information
+* contact options
+
+This keeps the homepage focused on information while still making personal background easy to find.
+
+---
+
+# YouTube
+
+The About page may link to Steven Tran's real estate YouTube channel.
+
+The channel includes:
+
+* property tours
+* Portland-area real estate information
+* homebuyer education
+* neighborhood/community information
+* relocation resources
+
+YouTube content supports the same goal as the blog: helping buyers make more informed and analytical real estate decisions.
+
+---
+
+# Breadcrumbs
+
+Breadcrumbs are handled by:
+
+```text
+src/components/Breadcrumbs.astro
+```
+
+The customized component uses plain scoped CSS instead of depending on old AstroPaper/Tailwind utility behavior.
+
+Expected output is similar to:
+
+```text
+Home / Search
+```
+
+rather than browser-default list formatting.
+
+---
+
+# Pagination
+
+Pagination is handled by:
+
+```text
+src/components/Pagination.astro
+```
+
+The customized version keeps navigation centered rather than placing Previous and Next at the extreme edges of the page.
+
+Conceptually:
+
+```text
+← Previous     Page 2 of 5     Next →
+```
+
+Pagination SVG sizing is intentionally scoped because global SVG styles previously caused icon alignment problems.
+
+---
+
+# CSS Architecture
+
+The primary global stylesheet is:
+
+```text
+src/styles/base.css
+```
+
+Because the project originated from AstroPaper and has since been redesigned, `base.css` contains both foundational styles and compatibility/customization rules.
+
+When making future changes:
+
+1. Check whether a component already has scoped styles.
+2. Avoid adding another global override unless necessary.
+3. Prefer component-specific class names.
+4. Avoid generic SVG/image rules.
+5. Test desktop and mobile.
+6. Remove obsolete overrides when replacing a component completely.
+
+Repeatedly appending `!important` fixes can eventually make the stylesheet difficult to maintain.
+
+When a component has been fully redesigned, prefer consolidating its styling rather than layering additional overrides indefinitely.
+
+---
+
+# SVG and Icon Styling
+
+Avoid broad rules such as:
+
+```css
+svg {
+  width: 100%;
+}
+```
+
+or:
+
+```css
+img,
+svg {
+  max-width: 100%;
+}
+```
+
+without considering icons.
+
+The blog contains SVGs used for:
+
+* search
+* pagination
+* social links
+* footer elements
+* sidebar links
+* navigation
+
+Prefer scoped selectors.
+
+Example:
+
+```css
+.site-search-icon svg {
+  width: 20px;
+  height: 20px;
+}
+```
+
+---
+
+# Public Assets
+
+Static files that should be served directly belong in:
+
+```text
+public/
+```
+
+For example:
+
+```text
+public/assets/oregon-hero.png
+```
+
+becomes:
+
+```text
+/assets/oregon-hero.png
+```
+
+in the browser.
+
+Do not include `public` in the browser URL.
+
+Correct:
+
+```text
+/assets/oregon-hero.png
+```
+
+Incorrect:
+
+```text
+/public/assets/oregon-hero.png
+```
+
+---
+
+# Netlify Deployment
+
+The blog is deployed through Netlify.
+
+## Build Command
+
+```bash
+npm run build
+```
+
+## Publish Directory
+
+```text
+dist
+```
+
+Netlify clones the repository, installs dependencies, runs the Astro/Jampack build, and publishes the resulting `dist` directory.
+
+---
+
+# Netlify Build Failures
+
+When a Netlify build fails, find the first meaningful Astro or Node error rather than focusing only on:
+
+```text
+Build script returned non-zero exit code
+```
+
+That final message usually reports the consequence, not the cause.
+
+For example:
+
+```text
+DuplicateContentEntrySlugError
+```
+
+means the problem is with content entries, not Netlify itself.
+
+Whenever possible, reproduce the build locally:
+
+```bash
+npm run build
+```
+
+Fix local build errors before pushing another deployment.
+
+---
+
+# Recommended Development Workflow
+
+Start by updating your local branch:
+
+```bash
+git pull
+```
+
+Install dependencies when needed:
+
+```bash
+npm install
+```
+
+Start Astro:
+
+```bash
+npm run dev
+```
+
+Make and test changes locally.
+
+Before committing:
+
+```bash
+npm run build
+```
+
+Then:
+
+```bash
+git status
+git add .
+git commit -m "Describe the change"
+git push
+```
+
+Netlify should automatically deploy the pushed commit.
+
+---
+
+# Git Ignore
+
+The repository should normally ignore items such as:
+
+```gitignore
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+.DS_Store
+npm-debug.log*
+```
+
+Do not ignore source Markdown posts or public site assets.
+
+---
+
+# Adding a New Article
+
+A typical publishing workflow is:
+
+1. Create a Markdown file in:
+
+```text
+src/content/blog/
+```
+
+2. Add valid frontmatter.
+
+3. Write the article.
+
+4. Choose relevant existing tags.
+
+5. Decide whether it should be featured.
+
+6. Run:
+
+```bash
+npm run dev
+```
+
+7. Verify the article page.
+
+8. Verify the homepage and tag pages.
+
+9. Run:
+
+```bash
+npm run build
+```
+
+10. Resolve any content/schema/slug errors.
+
+11. Commit and push.
+
+---
+
+# Before Publishing Content
+
+Check:
+
+* title
+* description
+* publication date
+* slug
+* duplicate slugs
+* tags
+* featured status
+* headings
+* links
+* images
+* alt text
+* mobile formatting
+* internal links
+* CTA relevance
+
+---
+
+# Relationship to the Main Website
+
+The blog and main website are separate repositories but should feel like one ecosystem.
+
+## Main Website
+
+```text
+steventranrealestate
+```
+
+Focuses on:
+
+* services
+* cities
+* communities
+* relocation
+* YouTube
+* reviews
+* lead generation
+* contact
+
+## Blog
+
+```text
+steventranrealestate-blog
+```
+
+Focuses on:
+
+* long-form education
+* market analysis
+* guides
+* SEO content
+* searchable articles
+* topic archives
+
+The sites should link naturally to each other.
+
+For example:
+
+```text
+Blog article
+    ↓
+Relevant city/community page
+    ↓
+Relocation guide or consultation
+```
+
+and:
+
+```text
+Main site community page
+    ↓
+Relevant educational article
+```
+
+This creates a stronger user experience and internal SEO structure than treating the two sites as unrelated properties.
+
+---
+
+# Content Philosophy
+
+Content should prioritize usefulness over keyword stuffing.
+
+The blog should help people understand:
+
+* what it is actually like to buy in the Portland Metro area
+* differences between Oregon and Southwest Washington
+* local communities
+* financing and assistance programs
+* new construction
+* housing market conditions
+* relocation considerations
+* real estate investing
+* the practical tradeoffs involved in buying a home
+
+The writing should support informed decisions rather than simply generating search traffic.
+
+---
+
+# Maintenance Notes
+
+When maintaining this project:
+
+* Run the production build before deploying.
+* Keep content slugs unique.
+* Avoid unnecessary global CSS overrides.
+* Scope SVG and icon styles.
+* Test desktop and mobile.
+* Keep tags consistent.
+* Keep the blog visually aligned with the primary website.
+* Put static assets in `public`.
+* Avoid manually editing generated output.
+* Preserve semantic HTML and accessibility.
+* Use descriptive image alt text.
+* Link relevant articles to main-site resources.
+* Link main-site pages back to useful blog content where appropriate.
+
+---
+
+# Owner
+
+Steven Tran
+Real Estate Broker
+Portland Metro & Southwest Washington
+
+Main website: steventranrealestate.com
