@@ -16,14 +16,17 @@ tags:
   - royal-woodlands
   - portland
   - hosford-farms-terra
-description: "Weekly Portland Metro roundup of selected homes with notable price movement — new builds, a renovated mid‑century, and remodeled Beaverton value for buyers to consider."
+  - hillsboro
+  - villege-at-orenco
+  - oak-hills-northwest
+description: "Weekly Portland Metro price alert: five selected homes with notable reductions, new builds, remodeled mid-century, farmhouse, Orenco and Bethany."
 ---
 
 ![](/assets/weekly-price-drops-cover.png)
 
-This is this week's dated Portland Metro Price Alert, a short review of selected local homes that recently show notable list-price movement. Each pick is chosen for features or adjustments that may matter to buyers and sellers.
+This is a weekly, dated review of selected Portland Metro homes that have seen notable price adjustments. Each entry below highlights properties I picked for reasons ranging from construction age to recent updates and visible list reductions.
 
-These are selected properties from the market, not necessarily the five largest reductions across the entire metro area. Read each brief summary to see why the listing caught our eye and what to watch for when evaluating a change in price.
+These are selected listings, not necessarily the five largest reductions across the market. Read the short overviews to see what changed, why each property caught my eye, and a brief guide on how buyers should weigh price movements.
 
 The listings and prices in this article were reviewed on **August 7, 2026**.
 
@@ -39,15 +42,15 @@ Availability, pricing, incentives and property details can change at any time.
 |---|---:|---:|---:|
 | [19822 SW GANNON LN Beaverton, OR 97007](https://www.zillow.com/homes/19822-SW-GANNON-LN-Beaverton-OR-97007_rb/) | \$869,999 | \$925,000 | About \$55,000 |
 | [6125 SW CHESTNUT AVE Beaverton, OR 97005](https://www.zillow.com/homes/6125-SW-CHESTNUT-AVE-Beaverton-OR-97005_rb/) | \$969,900 | \$949,900 | Review current price history |
-| [16060 NW Holman WAY Portland, OR 97223](https://www.zillow.com/homes/16060-NW-Holman-WAY-Portland-OR-97223_rb/) | \$799,000 | \$849,995 | About \$51,000 |
 | [16162 NW Newberry LN Portland, OR 97229](https://www.zillow.com/homes/16162-NW-Newberry-LN-Portland-OR-97229_rb/) | \$749,000 | \$840,000 | About \$91,000 |
-| [18866 SW SAMMY DR Beaverton, OR 97003](https://www.zillow.com/homes/18866-SW-SAMMY-DR-Beaverton-OR-97003_rb/) | \$549,900 | \$625,000 | About \$75,000 |
+| [6190 NE RIDGESTONE CT Hillsboro, OR 97124](https://www.zillow.com/homes/6190-NE-RIDGESTONE-CT-Hillsboro-OR-97124_rb/) | \$615,000 | \$680,000 | About \$65,000 |
+| [2233 NW 159TH PL Beaverton, OR 97006](https://www.zillow.com/homes/2233-NW-159TH-PL-Beaverton-OR-97006_rb/) | \$630,000 | \$655,000 | About \$25,000 |
 
 * * *
 
 ## 1. Contemporary Home in Beaverton
 
-![Contemporary Home in Beaverton](https://www.rmlsweb.com/webphotos/62100000/20000/0000/621201954-1-a.jpg?t=20260807180443)
+![Contemporary Home in Beaverton](https://www.rmlsweb.com/webphotos/62100000/20000/0000/621201954-1-a.jpg?t=20260807200139)
 
 **Address:** [19822 SW GANNON LN Beaverton, OR 97007](https://www.zillow.com/homes/19822-SW-GANNON-LN-Beaverton-OR-97007_rb/)  
 **Current price:** \$869,999  
@@ -58,17 +61,17 @@ Availability, pricing, incentives and property details can change at any time.
 **Square feet:** 2,916  
 **Year built:** 2,023
 
-Built in 2023, this NW Contemporary detached home offers about 2,916 square feet, five bedrooms and 3.5 baths. The main living area is open to a designer kitchen with a large island and stainless appliances, and large windows frame a valley view. Outdoor upgrades include a covered front patio and a newly installed paver patio with a pavilion and ambient lighting.
+Built in 2023 and presented like new, this NW Contemporary offers five bedrooms and an open great room anchored by a designer kitchen with a large island and stainless appliances. Large windows frame a valley view, the upstairs primary includes a soaking tub and walk-in shower, and a lower-level guest suite adds flexibility. Outdoor living was expanded with a large paver patio and pavilion, plus a three-car garage.
 
 ### Why I Picked This Home
 
-New-construction caliber finishes, a lower-level guest suite with walk-in closet and full bath, an expansive three-car garage and a significant outdoor pavilion make this one notable for multigenerational layouts and year-round alfresco use.
+New-construction quality and a five-bedroom plan with an independent lower-level suite provide multi-generational flexibility. The added paver patio and pavilion expand usable outdoor space, and a three-car garage adds storage and hobby potential.
 
 * * *
 
-## 2. 2 Story Home in ROYAL WOODLANDS
+## 2. Renovated Mid-Century in ROYAL WOODLANDS
 
-![2 Story Home in ROYAL WOODLANDS](https://www.rmlsweb.com/webphotos/11600000/30000/7000/116378221-1-a.jpg?t=20260807180443)
+![Renovated Mid-Century in ROYAL WOODLANDS](https://www.rmlsweb.com/webphotos/11600000/30000/7000/116378221-1-a.jpg?t=20260807200139)
 
 **Address:** [6125 SW CHESTNUT AVE Beaverton, OR 97005](https://www.zillow.com/homes/6125-SW-CHESTNUT-AVE-Beaverton-OR-97005_rb/)  
 **Current price:** \$969,900  
@@ -79,38 +82,17 @@ New-construction caliber finishes, a lower-level guest suite with walk-in closet
 **Square feet:** 3,056  
 **Year built:** 1,962
 
-A fully remodeled mid-century modern two-story in Royal Woodlands, this home offers five bedrooms, three full baths and roughly 3,056 square feet. The renovation preserves classic mid-century lines—large windows and clean details—while adding a custom kitchen, high-end finishes and a remodeled lower level that increases usable living space and flexibility.
+A fully remodeled mid-century modern in Royal Woodlands, this two-story home offers five bedrooms, three full bathrooms and about 3,056 square feet. Renovations include a custom-designed kitchen with high-end appliances, an expanded lower level for versatile living, and new exterior work including a roof and a large deck, while original mid-century lines and large windows remain prominent.
 
 ### Why I Picked This Home
 
-Top-to-bottom renovation with a new roof and a large new deck retains the home's mid-century character while delivering turnkey condition and expanded lower-level options for guests, media or a home office.
+Comprehensive, high-end renovations combined with preserved mid-century architectural character make this a turnkey option for buyers who want updated systems and finishes without losing classic lines and abundant natural light.
 
 * * *
 
-## 3. Craftsman Home in HOSFORD FARMS TERRA
+## 3. Farmhouse-Style Home in HOSFORD FARMS TERRA
 
-![Craftsman Home in HOSFORD FARMS TERRA](https://www.rmlsweb.com/webphotos/64400000/80000/1000/644813134-1-a.jpg?t=20260807180443)
-
-**Address:** [16060 NW Holman WAY Portland, OR 97223](https://www.zillow.com/homes/16060-NW-Holman-WAY-Portland-OR-97223_rb/)  
-**Current price:** \$799,000  
-**Original list price:** \$849,995  
-**Reduction from original price:** About \$51,000  
-**Bedrooms:** 4  
-**Bathrooms:** 3 full, 1 partial  
-**Square feet:** 3,048  
-**Year built:** 2,026
-
-This new-construction Brookings plan in Bethany comprises about 3,048 square feet with four bedrooms and 3.5 baths. The layout includes a main-level bedroom and full bath, a dedicated office with French doors, an oversized kitchen island and a walk-in pantry. The professionally landscaped backyard measures roughly 23 by 54 feet, and the home features designer-selected finishes and quick move-in availability.
-
-### Why I Picked This Home
-
-A main-level bedroom and separate office plus a large, professionally landscaped backyard offer flexible living for guests or remote work; designer upgrades and a quick move-in timeline add practical appeal.
-
-* * *
-
-## 4. Farmhouse-Style Home in HOSFORD FARMS TERRA
-
-![Farmhouse-Style Home in HOSFORD FARMS TERRA](https://www.rmlsweb.com/webphotos/68100000/80000/6000/681864349-1-a.jpg?t=20260807180443)
+![Farmhouse-Style Home in HOSFORD FARMS TERRA](https://www.rmlsweb.com/webphotos/68100000/80000/6000/681864349-1-a.jpg?t=20260807200139)
 
 **Address:** [16162 NW Newberry LN Portland, OR 97229](https://www.zillow.com/homes/16162-NW-Newberry-LN-Portland-OR-97229_rb/)  
 **Current price:** \$749,000  
@@ -121,38 +103,59 @@ A main-level bedroom and separate office plus a large, professionally landscaped
 **Square feet:** 2,620  
 **Year built:** 2,026
 
-This Farmhouse Kruse plan (new construction) provides about 2,620 square feet with four bedrooms and 3.5 baths. The light-filled main level has 10-foot ceilings and an open kitchen with a large center island. The primary suite includes dual vanities, a soaking tub, tile-walled shower and walk-in closet. A finished lower level adds an extra bedroom or bonus space and a full bath.
+This new-construction Farmhouse Kruse plan features vaulted main-level volume with 10-foot ceilings, a generous kitchen island and an open layout. The primary suite includes dual vanities, a soaking tub and a walk-in shower. A finished lower level provides an extra bedroom or office and a full bathroom, increasing usable living area. Listing photos are of the actual finished home.
 
 ### Why I Picked This Home
 
-High ceilings on the main floor, a spa-like primary suite and a finished lower level create flexible living space; the listing also reflects a notable price adjustment that may broaden buyer interest.
+Tall main-level ceilings and a completed lower level provide flexibility and added living space on a new-build footprint. The combination of high-end finishes and finished lower-level square footage is notable for buyers comparing new construction options.
 
 * * *
 
-## 5. 2 Story Home in Beaverton
+## 4. Mediterranean-Style Home in Villege at Orenco
 
-![2 Story Home in Beaverton](https://www.rmlsweb.com/webphotos/47400000/80000/1000/474813821-1-a.jpg?t=20260807180443)
+![Mediterranean-Style Home in Villege at Orenco](https://www.rmlsweb.com/webphotos/21400000/70000/7000/214770050-1-a.jpg?t=20260807200139)
 
-**Address:** [18866 SW SAMMY DR Beaverton, OR 97003](https://www.zillow.com/homes/18866-SW-SAMMY-DR-Beaverton-OR-97003_rb/)  
-**Current price:** \$549,900  
-**Original list price:** \$625,000  
-**Reduction from original price:** About \$75,000  
-**Bedrooms:** 5  
+**Address:** [6190 NE RIDGESTONE CT Hillsboro, OR 97124](https://www.zillow.com/homes/6190-NE-RIDGESTONE-CT-Hillsboro-OR-97124_rb/)  
+**Current price:** \$615,000  
+**Original list price:** \$680,000  
+**Reduction from original price:** About \$65,000  
+**Bedrooms:** 4  
 **Bathrooms:** 2 full, 1 partial  
-**Square feet:** 2,131  
-**Year built:** 1,996
+**Square feet:** 2,584  
+**Year built:** 2,007
 
-This remodeled two-story in Beaverton/Aloha totals about 2,131 square feet with five bedrooms and 2.5 baths. Updates include refreshed kitchens and baths, new flooring and modern finishes throughout. The upstairs primary suite offers privacy, while the fully fenced backyard with a patio and new landscaping provides outdoor entertaining and family-friendly yard space.
+Mediterranean-inspired home in the Village at Orenco with four bedrooms, a dramatic vaulted entry and a remodeled kitchen featuring quartz counters and stainless appliances. Main-level living includes a den/office, while upstairs offers a large bonus room. Recent flooring, new carpet and fresh paint refresh the interior, and the backyard is finished with pavers for low-maintenance outdoor use.
 
 ### Why I Picked This Home
 
-Extensive interior remodeling combined with a fully fenced yard and a significant price reduction positions this property as a value-oriented option for buyers seeking move-in ready family housing.
+A remodeled kitchen and high-ceiling entry provide strong curb appeal, while the flexible bonus room and finished paver backyard deliver practical indoor-outdoor living with updated, move-in-ready surfaces.
+
+* * *
+
+## 5. 2 Story Home in OAK HILLS NORTHWEST
+
+![2 Story Home in OAK HILLS NORTHWEST](https://www.rmlsweb.com/webphotos/22700000/90000/4000/227945089-1-a.jpg?t=20260807200139)
+
+**Address:** [2233 NW 159TH PL Beaverton, OR 97006](https://www.zillow.com/homes/2233-NW-159TH-PL-Beaverton-OR-97006_rb/)  
+**Current price:** \$630,000  
+**Original list price:** \$655,000  
+**Reduction from original price:** About \$25,000  
+**Bedrooms:** 3  
+**Bathrooms:** 2 full, 1 partial  
+**Square feet:** 1,840  
+**Year built:** 1,987
+
+Turnkey traditional two-story on a quiet cul-de-sac in Bethany offering three bedrooms, 2.5 baths and two living areas. Interior updates include new paint, new carpet and luxury vinyl plank flooring, plus a refreshed kitchen with quartz counters and new stainless appliances. Major system work includes a 2025 furnace and central air installation, and the backyard is flat and fully usable.
+
+### Why I Picked This Home
+
+Recent mechanical upgrades paired with a full cosmetic refresh reduce near-term maintenance concerns. Dual living spaces and a flat backyard make this a practical option for buyers prioritizing updated systems and straightforward outdoor use.
 
 * * *
 
 ## What Buyers Should Know About Price Reductions
 
-When evaluating a price reduction, look beyond the number. Compare recent comparable sales in the same market slice, factor in the home's condition and any recent renovations, and budget for inspections and potential repairs. Consider how financing terms or temporary rate buydowns affect affordability, and watch local demand indicators—days on market and competing listings—before drawing conclusions.
+A price reduction can be a useful signal, but buyers still need context. Compare recent comparable sales, evaluate the home’s condition and factor in inspection findings, potential repair costs and permit history. Consider your financing terms and appraisal risk, and weigh current local demand and time-on-market. Use reductions as a starting point for due diligence, not the only decision metric.
 
 A price reduction can indicate seller motivation, but it can also mean that the original asking price was higher than the market supported.
 
