@@ -2,7 +2,7 @@
 author: Steven Tran
 pubDatetime: 2026-08-07
 modDatetime: 2026-08-07
-title: "Portland Metro Housing Snapshot, Aug 2, 2026"
+title: "Greater Portland Market Snapshot, August 2, 2026"
 slug: portland-metro-housing-market-update-2026-08-07
 featured: false
 draft: false
@@ -12,13 +12,14 @@ tags:
   - portland-metro
   - market-update
   - housing-market
-description: "Single-family homes are generally moving faster than condos across Greater Portland. Inventory and days on market vary a lot by neighborhood, so location and property type matter more than ever."
+description: "A quick, neighborhood-aware read on where single-family homes and condos stand across the Portland metro. Single-family listings are generally moving faster than condos, but there are strong local differences you should know before buying or selling."
 ---
 
 ![](/assets/weekly-market-stats-cover.png)
 
-Across Greater Portland, single-family homes and condominiums are behaving differently. On the single-family side the market is relatively tight: 5, 953 active listings, 2.5 months of inventory and an average of 43 days on market for sold homes. That combination points to a market where choices are limited and transactions move at a quicker clip in many neighborhoods.
-Condominiums tell a different story. The metro condo pool shows 1, 414 active listings, 6.9 months of inventory and an average of 85 days on market for sold condos. In many parts of the region that creates more choices and generally longer marketing times than for detached homes.
+Across Greater Portland single-family homes are showing relatively low months of inventory, with the metro aggregate at about 2.5 months of inventory, roughly 28.3% of listings pending, and an average days on market for sold homes near 43 days. That combination points to a market where many detached homes are still moving at a measured pace.
+
+Condominiums are behaving differently. The metro condo picture shows about 6.9 months of inventory, a lower pending-to-active ratio (13.9%), and an average days on market for sold condos around 85 days. In other words, condos generally have more supply and longer marketing times than detached homes, though there is meaningful variation by neighborhood.
 
 * * *
 
@@ -62,7 +63,7 @@ Condominiums tell a different story. The metro condo pool shows 1, 414 active li
 
 ## 🔥 Where Single-Family Homes Look Most Competitive
 
-The most competitive single-family pockets are concentrated inside the core city areas. Northeast Portland, North Portland and Southeast Portland all show low months of inventory (1.5 to 1.9), strong pending-to-active activity (about 31 to 37 percent) and short average days on market (around 28 to 29 days). Low inventory, high pending activity and quicker sale timelines usually mean homes move faster and sellers have less marketing time, while buyers face a faster decision window and less room for negotiation.
+The single-family market has clear hot pockets. Northeast Portland, North Portland and Southeast Portland all sit under roughly two months of inventory and show pending activity in the 31% to 37% range with average selling times in the high 20s for days on market. Low inventory, strong pending activity and shorter days on market typically indicate a more competitive environment where buyers should expect listings to move quickly and have fewer choices at any given time.
 
 ### Northeast Portland
 
@@ -89,7 +90,7 @@ The most competitive single-family pockets are concentrated inside the core city
 
 ## 🏡 Where Buyers May Have More Leverage
 
-On the other end of the spectrum, several markets offer more buyer flexibility. Columbia County, Yamhill County and Marion County all have more than four months of inventory and substantially longer average days on market (for example Columbia County averaged 73 days). Higher months of inventory and longer marketing times typically give buyers more choices and more time to compare properties and terms.
+On the flip side, several single-family areas offer more breathing room. Columbia County, Yamhill County and Marion County all show months of inventory above four and average days on market ranging from the mid-50s to the low 70s. Even higher-priced pockets such as Lake Oswego/West Linn and parts of West Portland have more inventory than the hottest urban neighborhoods. Higher months of inventory and longer marketing times usually create more flexibility for buyers on timing and negotiation.
 
 ### Columbia County
 
@@ -116,7 +117,7 @@ On the other end of the spectrum, several markets offer more buyer flexibility. 
 
 ## 🏢 The Condo Market Is a Different Story
 
-Condominiums are behaving differently than detached homes in many neighborhoods. Metro-level condo data shows higher months of inventory and longer selling timelines versus single-family homes, and that pattern repeats across individual areas. For condo buyers and sellers that often means a different pace and a different level of bargaining room compared with detached homes.
+Condos are not following the same pattern as detached homes. Some condo markets are quite slow, North Portland condominiums have about 9.8 months of inventory and average days on market around 112, while other condo submarkets like Southeast Portland are relatively quicker for condos (about 5.1 months of inventory and 64 days on market). Overall, condo listings tend to sit longer and offer more choice compared with single-family homes in many parts of the metro.
 
 | Area | Single-Family Inventory | Condo Inventory | Inventory Gap |
 |---|---:|---:|---:|
@@ -126,30 +127,30 @@ Condominiums are behaving differently than detached homes in many neighborhoods.
 | NW Portland | 3 months | 7.9 months | 4.9 months |
 | Northeast Portland | 1.5 months | 6.3 months | 4.8 months |
 
-The gap between condos and single-family homes can be stark. North Portland shows a 1.6 months of inventory for single-family homes versus 9.8 months for condos, and average days on market of 29 for single-family versus 112 for condos. Northeast Portland is another clear example: single-family homes had 1.5 months of inventory and 28 days on market, while condos had 6.3 months of inventory and 113 days on market. Those inventory and speed gaps matter: in many neighborhoods single-family listings are faster-moving and tighter, while condos offer more time and choices.
+When you compare condos with single-family homes in the same neighborhoods the differences stand out. For example, North Portland shows an inventory gap of about 8.2 months (single-family around 1.6 months vs condos near 9.8), and days on market for condos (112) far exceed single-family DOM (29). Similar gaps appear in Lake Oswego/West Linn, Beaverton, NW Portland and several other areas. Practically, that means single-family listings usually face more competition and move faster, while condos often give buyers more choices and more time to evaluate offers.
 
 * * *
 
 ## 💰 What This Could Mean for Buyers
 
-- If you’re shopping for a single-family home in inner neighborhoods like Northeast or North Portland, expect a faster pace: homes there often sell in about four weeks and have low months of inventory.
-- Condo shoppers should know there are more active choices and more time to evaluate, especially in areas like North Portland and Lake Oswego where condo inventory and average days on market are substantially higher.
-- In markets labeled as buyer opportunities, such as Columbia County or Yamhill County, expect more listings per buyer and longer windows to negotiate or compare financing and inspections.
-- Get your financing squared away before you write offers in the fastest-moving neighborhoods, because the decision timeline will likely be shorter than in condo-heavy or higher-inventory areas.
+- If you are shopping for a single-family home in hot neighborhoods (Northeast, North, Southeast Portland), expect faster turnaround: many sold homes are closing in under 30 to 45 days. Be prepared with financing in place and a clear plan for inspections and contingencies because listings move quickly.
+- Buyers looking in higher-inventory single-family markets (Columbia County, Yamhill, Marion) will likely find more negotiation room and longer marketing times, which can translate into more flexibility on price and timing.
+- Condo buyers should plan for longer search and due diligence windows. In several condo submarkets there are many more active listings and average days on market well over 60, so you can take more time to compare buildings, HOA terms and financing options.
+- Always evaluate neighborhood-level metrics, not just the metro headline. Inventory and days on market vary widely by area and price range, and that determines how aggressive you need to be as a buyer.
 
 * * *
 
 ## 🏠 What This Could Mean for Sellers
 
-- Sellers in hot single-family pockets (Northeast, North, Southeast Portland) should be ready for quick showings and a faster timeline, and price and prepare their home with that faster pace in mind.
-- Condo sellers will likely face longer marketing times and should plan for a different pricing and staging strategy compared with detached homes, since condos are showing higher months of inventory and longer days on market in many areas.
-- If you’re selling in a higher-inventory market like Columbia County or Yamhill County, be realistic about marketing time and consider staged improvements or targeted marketing to stand out.
-- Work with your agent to align expectations to your neighborhood and property type, because whether your listing moves fast or slow will depend more on location and type than on a single metro-level headline.
+- Sellers of single-family homes in the tightest pockets (for example Northeast and North Portland) can expect quicker showings and shorter marketing timelines; pricing and presentation for a fast sale matter more in those areas.
+- In higher-inventory single-family areas and most condo markets, plan for a longer marketing period. Strong photos, realistic pricing and attention to condition will matter more where months of inventory and days on market are higher.
+- Condo sellers should be prepared for average condo selling times that are notably longer than detached homes in many neighborhoods, so factor that into your timeline and staging budget.
+- High-end single-family pockets like Lake Oswego/West Linn have different dynamics: they can still move relatively quickly by price tier (average sale near \$1.21M with about 37 days on market), so match your expectations to your neighborhood and price point.
 
 * * *
 
 ## Bottom Line
 
-Portland is not one market. Buyers and sellers should look at their specific neighborhood, property type and price range to understand how quickly homes are moving and how much choice exists where they’re shopping or listing.
+Portland is not one housing market. Whether you are buying or selling, drill down to your specific neighborhood, property type and price range to set the right expectations and plan your strategy.
 
 Market statistics are based on the weekly TMO Reports data used for this analysis and are subject to change. Real estate conditions can vary significantly by neighborhood, property type and price range.
