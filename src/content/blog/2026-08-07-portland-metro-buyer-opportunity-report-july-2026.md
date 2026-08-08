@@ -12,12 +12,15 @@ tags:
   - portland-home-buyers
   - buyer-opportunities
   - market-update
-description: "A quick look at where Portland-area buyers had more listings to choose from, where homes were selling faster, and where buyers may have had more negotiating room during mid July 2026."
+  - price-drops
+description: "A look back at July 2026 Portland Metro housing activity using two weekly snapshots. Explains what changed in plain English and highlights the signs homebuyers should watch this month, including neighborhoods where listings grew and where homes were selling faster."
 ---
 
 ![](/assets/monthly-buyer-opportunity-cover.png)
 
-This report answers where buyers in the Portland metro had more choices, where homes were moving faster, and where buyers might have found extra negotiating room. The analysis uses the two weekly snapshots available for July 13 and July 20, 2026, so conclusions are based on those weeks. Overall the market was fairly steady between those dates, with most areas showing only small shifts and a few neighborhoods standing out with bigger moves.
+This report reviews housing activity across Portland Metro for July 2026 using the two weekly snapshots available. The goal is to point out the signals from July that could matter for buyers during the current month.
+
+With only two weekly snapshots, the picture is limited but still useful. The broad takeaway: inventory nudged higher in several suburban areas, giving buyers a few more choices, while some Portland neighborhoods showed tighter conditions and quicker buyer activity.
 
 > **About this report:** Only 2 weekly market reports were available for July 2026, dated Jul 13 and Jul 20. This gives us a useful snapshot of buyer conditions, but it should not be treated as a complete picture of every week of the month.
 
@@ -25,19 +28,19 @@ This report answers where buyers in the Portland metro had more choices, where h
 
 ## 🏡 Where Buyers Had More Options
 
-In some neighborhoods buyers saw a bit more breathing room: a rise in the number of listings or slower selling speeds gave buyers more time to compare options and consider offers. Those are the places where buyers may have had the best chance for negotiating.
+Buyers saw slightly more breathing room in parts of the region where active listings increased over the month, notably in Lake Oswego and several suburban counties. In those areas buyers generally had more listings to consider and a bit more time to compare options.
 
 ### Columbia County
 
 **223 active listings | about 65 days to sell**
 
-Homes were taking longer to sell than in many parts of the metro, which can give buyers more time to compare properties and potentially negotiate.
+Homes were also taking longer to sell than in many parts of the metro, which can give buyers more time to compare properties and potentially negotiate.
 
 ### Yamhill County
 
 **423 active listings | about 61 days to sell**
 
-Homes were taking longer to sell than in many parts of the metro, which can give buyers more time to compare properties and potentially negotiate.
+Homes were also taking longer to sell than in many parts of the metro, which can give buyers more time to compare properties and potentially negotiate.
 
 ### Marion County
 
@@ -55,7 +58,7 @@ This area gave buyers comparatively more breathing room than the fastest-moving 
 
 ## 🔥 Where Homes Were Moving Faster
 
-Other areas showed fewer listings and faster activity, meaning buyers there likely needed to move more quickly when a suitable home appeared. In those neighborhoods being prepared to act fast was the practical advantage.
+At the same time, parts of Portland proper tightened up. North and Northeast Portland saw fewer active single family listings and signs of stronger buyer activity, meaning buyers in those neighborhoods may have had to move faster to secure a home.
 
 ### Northeast Portland
 
@@ -79,13 +82,15 @@ Homes were selling relatively quickly here, averaging about 29 days. Buyers inte
 
 **484 active listings | about 49 days to sell**
 
-There were 484 active listings in the latest report, but buyer conditions were still tighter here than in the markets offering the most time and choice.
+This area remained more competitive than the markets offering buyers the most time and choice.
 
 * * *
 
 ## 🏢 Houses vs. Condos
 
-Across the region condo shoppers generally had more listings to look through than buyers focused on detached houses. That usually means condo buyers had more time to compare layouts, locations and HOA documents before making a decision. That said, condo selling speed varied by neighborhood, in some parts condos were moving faster than usual.
+The condo market behaved differently from detached homes in practical ways. Condos in some central areas showed higher inventory and longer selling times, which can mean more options but also more time needed to evaluate condition and value.
+
+By contrast, single family homes generally remained in shorter supply in many neighborhoods, so competition and quicker decision making were more common for detached properties than for many condos.
 
 | Area | Houses | Condos |
 |---|---|---|
@@ -96,37 +101,37 @@ Across the region condo shoppers generally had more listings to look through tha
 | Milwaukie/Clackamas | 460 active, 49 days to sell | 53 active, 80 days to sell |
 | West Portland | 531 active, 39 days to sell | 524 active, 91 days to sell |
 
-The difference is especially noticeable in Northeast Portland. Houses were taking about 28 days to sell, compared with about 118 days for condos. Longer selling times can give condo buyers more time to compare units, review HOA documents and consider their options.
+The difference is especially noticeable in Northeast Portland. Houses were taking about 28 days to sell, compared with about 118 days for condos.
 
 * * *
 
 ## 📈 What Changed During July?
 
-Between the July 13 and July 20 snapshots most changes were modest. A few notable shifts stood out: Beaverton saw a clear increase in condo listings, giving condo buyers more choices there. Hillsboro condos registered a meaningful uptick in buyer activity over the week, which tightened competition for that property type. In North Portland the number of single-family listings dropped and buyer activity strengthened, even as homes took a couple of days longer to sell on average, a sign the market there is active but with fewer options. In parts of the city, like NW Portland, condos were selling noticeably faster over the week, while other neighborhoods showed little movement. Overall, conditions were relatively stable with targeted pockets of change rather than broad swings.
+Changes between the two July snapshots were mostly small, but a few patterns stood out. Several suburban and county markets posted noticeable listing increases, for example Lake Oswego single family listings climbed and Gresham/Troutdale single family inventory rose, giving buyers more choices there. Conversely, North and Northeast Portland single family listings fell and buyer activity measures increased, indicating homes were moving faster in those neighborhoods. For condos, NW Portland showed a jump in average sale price alongside a small drop in how long units were selling, while West Portland condos showed a decline in average sale price over the same two-week span. Remember these observations come from two weekly snapshots, so they flag short term movement rather than a full monthly trend.
 
 - Gresham/Troutdale: active listings increased by 20.
 
 * * *
 
-## 💡 What This Could Mean If You're Buying
+## 💡 What This Could Mean If You're Buying in August
 
-- If you are shopping in neighborhoods where homes are selling faster, have your financing and decision process organized so you can move quickly when you find the right property.
-- Condo buyers often had more listings to choose from; use that extra time to review HOA documents and evaluate unit-specific issues.
-- In areas that picked up listings over the week, buyers may find more negotiating room and a wider range of options to compare.
-- When buyer activity appears stronger in a neighborhood, expect quicker timelines and work with your agent to submit a thoughtful, timely offer.
+- If you are looking in suburban areas like Lake Oswego, parts of Marion County or Gresham, expect a few more listings and some room to compare properties before deciding.
+- If your search is in North or Northeast Portland, be prepared to act more quickly because fewer listings and stronger buyer activity were evident in July.
+- Condo shoppers should use the extra time some listings provide to inspect condition and building fundamentals since condos showed varied pacing across neighborhoods.
+- Keep your inspection and financing protections in place. In areas with more inventory you may have more negotiating room, but do not sacrifice contractual protections to win a bid.
 
 * * *
 
-## 👀 What I'm Watching Going Into the Next Month
+## 👀 What I'm Watching in August
 
-- Whether Beaverton keeps giving condo buyers more listings to choose from.
-- Whether North Portland single-family homes continue to show stronger buyer activity and fewer available listings.
-- Whether condo listings keep showing different selling speeds than detached houses across the region.
+- Whether the modest listing increases in Lake Oswego, Marion County and Gresham continue or reverse.
+- If North and Northeast Portland keep seeing fewer active single family listings and faster buyer activity.
+- How condo selling pace and prices in NW and West Portland evolve after the short term moves seen in July.
 
 * * *
 
 ## Bottom Line
 
-Portland Metro is not a single housing market: conditions can look very different block to block and between condos and houses, so local neighborhood and property-type trends matter when planning a purchase.
+Portland Metro contains many different local markets; the best opportunities will depend on exact location, property type, condition and price range, so local detail matters when planning your next move.
 
-Market statistics are based on the available weekly TMO Reports analyzed for July 2026. Market conditions are subject to change and can vary significantly by neighborhood, property type and price range.
+Market statistics are based on the available weekly TMO Reports and historical price-drop reports analyzed for July 2026. Market conditions, listing availability and pricing are subject to change and can vary significantly by neighborhood, property type and price range.
