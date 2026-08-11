@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && jampack ./dist",
+    "build": "SITE_BRAND=steven-tran astro build && jampack ./dist",
+    "build:portland-home-guide": "SITE_BRAND=portland-home-guide astro build && jampack ./dist",
+    "dev": "SITE_BRAND=steven-tran astro dev",
+    "dev:portland-home-guide": "SITE_BRAND=portland-home-guide astro dev",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",

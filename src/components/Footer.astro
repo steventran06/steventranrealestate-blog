@@ -1,4 +1,5 @@
 ---
+import { BRAND, IS_PORTLAND_HOME_GUIDE } from "@config";
 import Socials from "./Socials.astro";
 
 const currentYear = new Date().getFullYear();
@@ -14,12 +15,20 @@ const { noMarginTop = false } = Astro.props;
   <div class="site-container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <div class="footer-brand-name">Steven Tran Real Estate</div>
-        <p>
-          Oregon &amp; Washington real estate broker serving Portland Metro and
-          Southwest Washington.
-        </p>
-        <Socials />
+          <a
+            class="footer-brand-logo-link"
+            href={BRAND.mainSiteUrl}
+            aria-label={IS_PORTLAND_HOME_GUIDE ? "Visit Portland Home Guide" : "Visit Steven Tran Real Estate"}
+          >
+            <img
+              class="footer-brand-logo"
+              src={BRAND.footerLogo}
+              alt={BRAND.logoAlt ?? BRAND.brandName}
+            />
+          </a>
+        <p>{BRAND.footerDescription}</p>
+
+        {!IS_PORTLAND_HOME_GUIDE && <Socials />}
       </div>
 
       <div>
@@ -28,37 +37,75 @@ const { noMarginTop = false } = Astro.props;
           <li><a href="/">Blog Home</a></li>
           <li><a href="/posts/">All Articles</a></li>
           <li><a href="/tags/">Topics</a></li>
-          <li><a href="/about/">About Steven</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>Real Estate</h3>
-        <ul class="footer-links">
-          <li><a href="https://steventranrealestate.com/communities/">Communities</a></li>
-          <li><a href="https://steventranrealestate.com/faq/">Real Estate FAQ</a></li>
-          <li><a href="https://steventranrealestate.com/#relocation">Relocation Guide</a></li>
-          <li><a href="https://www.youtube.com/@steventran_pdxrealtor" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>Contact</h3>
-        <ul class="footer-links">
-          <li><a href="tel:+19712852002">(971) 285-2002</a></li>
-          <li><a href="mailto:steven@diverserg.com">steven@diverserg.com</a></li>
           <li>
-            <a href="https://calendly.com/steven-diverserg/new-meeting" target="_blank" rel="noopener noreferrer">
-              Schedule a Call
+            <a href="/about/">
+              {IS_PORTLAND_HOME_GUIDE ? "About the Blog" : "About Steven"}
             </a>
           </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>{IS_PORTLAND_HOME_GUIDE ? "Portland Home Guide" : "Real Estate"}</h3>
+        <ul class="footer-links">
+          {IS_PORTLAND_HOME_GUIDE && <li><a href={BRAND.mainSiteUrl}>Main Site</a></li>}
+          <li><a href={BRAND.communitiesUrl}>Communities</a></li>
+          <li><a href={BRAND.relocationUrl}>Relocation Guide</a></li>
+          {
+            !IS_PORTLAND_HOME_GUIDE && (
+              <>
+                <li><a href="https://steventranrealestate.com/faq/">Real Estate FAQ</a></li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/@steventran_pdxrealtor"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube
+                  </a>
+                </li>
+              </>
+            )
+          }
+        </ul>
+      </div>
+
+      <div>
+        <h3>{IS_PORTLAND_HOME_GUIDE ? "Local Help" : "Contact"}</h3>
+        <ul class="footer-links">
+          {
+            IS_PORTLAND_HOME_GUIDE ? (
+              <>
+                <li>
+                  <a href={BRAND.externalAboutUrl} target="_blank" rel="noopener noreferrer">
+                    About Steven Tran
+                  </a>
+                </li>
+                <li>
+                  <a href={BRAND.helpUrl} target="_blank" rel="noopener noreferrer">
+                    Get Local Help
+                  </a>
+                </li>
+              </>
+            ) : (
+              <>
+                <li><a href="tel:+19712852002">(971) 285-2002</a></li>
+                <li><a href="mailto:steven@diverserg.com">steven@diverserg.com</a></li>
+                <li>
+                  <a href={BRAND.helpUrl} target="_blank" rel="noopener noreferrer">
+                    Schedule a Call
+                  </a>
+                </li>
+              </>
+            )
+          }
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <span>&copy; {currentYear} Steven Tran Real Estate</span>
-      <span>Oregon &amp; Washington Real Estate Broker</span>
+      <span>&copy; {currentYear} {BRAND.brandName}</span>
+      <span>{BRAND.footerDescriptor}</span>
     </div>
   </div>
 </footer>

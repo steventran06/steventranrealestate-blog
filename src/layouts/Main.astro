@@ -1,5 +1,6 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
+import { BRAND } from "@config";
 
 interface StringTitleProp {
   pageTitle: string;
@@ -20,7 +21,7 @@ const { props } = Astro;
 <div class="site-container content-page-shell">
   <Breadcrumbs />
   <main id="main-content" class="content-page-main">
-    <div class="eyebrow">Steven Tran Real Estate</div>
+    <div class="eyebrow">{BRAND.contentEyebrow}</div>
     {
       "titleTransition" in props ? (
         <h1>

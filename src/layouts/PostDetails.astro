@@ -7,7 +7,7 @@ import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinks.astro";
-import { SITE } from "@config";
+import { BRAND, IS_PORTLAND_HOME_GUIDE, SITE } from "@config";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -29,7 +29,7 @@ const { Content } = await post.render();
 const ogImageUrl = typeof ogImage === "string" ? ogImage : ogImage?.src;
 const ogUrl = new URL(
   ogImageUrl ?? `/posts/${slugifyStr(title)}.png`,
-  Astro.url.origin
+  Astro.site ?? Astro.url.origin
 ).href;
 
 const layoutProps = {
@@ -52,7 +52,7 @@ const layoutProps = {
       <a class="back-link" href="/posts/">← All Articles</a>
 
       <header class="article-header">
-        <div class="eyebrow">Portland Metro Real Estate</div>
+        <div class="eyebrow">{BRAND.articleEyebrow}</div>
         <h1 transition:name={slugifyStr(title)}>{title}</h1>
         <p class="article-description">{description}</p>
         <div class="article-date">
@@ -69,41 +69,96 @@ const layoutProps = {
         <div>
           <div class="eyebrow">About the Author</div>
           <h2>Steven Tran</h2>
-          <p>
-            Oregon and Washington real estate broker serving Portland Metro and
-            Southwest Washington. I work with relocation buyers, first-time and
-            move-up buyers, investors and new construction clients.
-          </p>
+          {
+            IS_PORTLAND_HOME_GUIDE ? (
+              <p>
+                Steven Tran is a Portland-area real estate broker, investor and the creator of
+                Portland Home Guide. He contributes local housing, relocation and market context
+                to help readers make more informed decisions across Portland Metro and Southwest Washington.
+              </p>
+            ) : (
+              <p>
+                Oregon and Washington real estate broker serving Portland Metro and Southwest Washington.
+                I work with relocation buyers, first-time and move-up buyers, investors and new construction clients.
+              </p>
+            )
+          }
           <div class="author-actions">
-            <a
-              class="site-button site-button-primary"
-              href="https://calendly.com/steven-diverserg/new-meeting"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Schedule a Call
-            </a>
-            <a class="site-button site-button-secondary" href="https://steventranrealestate.com/">
-              Visit My Real Estate Site
-            </a>
+            {
+              IS_PORTLAND_HOME_GUIDE ? (
+                <>
+                  <a class="site-button site-button-primary" href="/about/">
+                    About Portland Home Guide
+                  </a>
+                  <a
+                    class="site-button site-button-secondary"
+                    href={BRAND.externalAboutUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    About Steven Tran
+                  </a>
+                </>
+              ) : (
+                <>
+                  <a
+                    class="site-button site-button-primary"
+                    href={BRAND.helpUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Schedule a Call
+                  </a>
+                  <a class="site-button site-button-secondary" href={BRAND.externalAboutUrl}>
+                    Visit My Real Estate Site
+                  </a>
+                </>
+              )
+            }
           </div>
         </div>
       </section>
 
-      <section class="article-relocation-cta">
-        <div class="eyebrow eyebrow-light">Moving to Portland?</div>
-        <h2>Get My Free Portland Relocation Guide</h2>
-        <p>
-          Start comparing Portland neighborhoods, suburbs, housing and local lifestyle
-          before you arrive.
-        </p>
-        <a
-          class="site-button site-button-light"
-          href="https://steventranrealestate.com/#relocation"
-        >
-          Get the Relocation Guide
-        </a>
-      </section>
+      {
+        IS_PORTLAND_HOME_GUIDE ? (
+          <section class="article-relocation-cta">
+            <div class="eyebrow eyebrow-light">Continue Your Research</div>
+            <h2>Explore More on Portland Home Guide</h2>
+            <p>
+              Compare communities, neighborhood information, housing market context and relocation resources across the Portland region and Southwest Washington.
+            </p>
+            <div class="author-actions">
+              <a
+                class="site-button site-button-primary"
+                href={BRAND.mainSiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore Portland Home Guide
+              </a>
+              <a
+                class="site-button site-button-light"
+                href={BRAND.communitiesUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Compare Communities
+              </a>
+            </div>
+          </section>
+        ) : (
+          <section class="article-relocation-cta">
+            <div class="eyebrow eyebrow-light">Moving to Portland?</div>
+            <h2>Get My Free Portland Relocation Guide</h2>
+            <p>
+              Start comparing Portland neighborhoods, suburbs, housing and local lifestyle before you arrive.
+            </p>
+            <a class="site-button site-button-light" href={BRAND.relocationUrl}>
+              Get the Relocation Guide
+            </a>
+          </section>
+        )
+      }
     </article>
 
     <div class="site-container article-footer-tools">

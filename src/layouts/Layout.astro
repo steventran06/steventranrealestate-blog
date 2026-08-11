@@ -1,9 +1,10 @@
 ---
-import { LOCALE, SITE } from "@config";
+import { BRAND, LOCALE, SITE } from "@config";
 import "@styles/base.css";
 import { ViewTransitions } from "astro:transitions";
 
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+const analyticsId = BRAND.analyticsId;
 
 export interface Props {
   title?: string;
@@ -29,7 +30,7 @@ const {
 
 const socialImageURL = new URL(
   ogImage ?? SITE.ogImage ?? "og.png",
-  Astro.url.origin
+  Astro.site ?? Astro.url.origin
 ).href;
 ---
 
@@ -38,9 +39,10 @@ const socialImageURL = new URL(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href={BRAND.favicon} />
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
+    <meta name="site-brand" content={BRAND.id} />
 
     <title>{title}</title>
     <meta name="title" content={title} />
@@ -77,15 +79,21 @@ const socialImageURL = new URL(
 
     <ViewTransitions />
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PCBBTVNK95"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-PCBBTVNK95');
-    </script>
+    {
+      analyticsId && (
+        <>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${analyticsId}`}></script>
+          <script is:inline define:vars={{ analyticsId }}>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', analyticsId);
+          </script>
+        </>
+      )
+    }
   </head>
-  <body>
+  <body data-site-brand={BRAND.id}>
     <slot />
   </body>
 </html>

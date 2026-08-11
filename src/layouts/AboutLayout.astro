@@ -1,5 +1,5 @@
 ---
-import { SITE } from "@config";
+import { BRAND, IS_PORTLAND_HOME_GUIDE, SITE } from "@config";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import Layout from "./Layout.astro";
@@ -13,17 +13,230 @@ export interface Props {
 
 const { frontmatter } = Astro.props;
 
-const description =
-  frontmatter.description ??
-  "Learn more about Steven Tran, an Oregon and Washington real estate broker, investor and property manager serving Portland Metro and Southwest Washington.";
+const pageTitle = IS_PORTLAND_HOME_GUIDE ? "About Portland Home Guide" : frontmatter.title;
+
+const description = IS_PORTLAND_HOME_GUIDE
+  ? "Learn how the Portland Home Guide blog complements PortlandHomeGuide.com with long-form community research, relocation guides, market explainers and practical housing context."
+  : frontmatter.description ??
+    "Learn more about Steven Tran, an Oregon and Washington real estate broker, investor and property manager serving Portland Metro and Southwest Washington.";
 ---
 
 <Layout
-  title={`${frontmatter.title} | ${SITE.title}`}
+  title={`${pageTitle} | ${SITE.title}`}
   description={description}
 >
   <Header activeNav="about" />
 
+  {
+    IS_PORTLAND_HOME_GUIDE ? (
+  <main id="main-content" class="phg-about-page">
+    <section class="about-page-hero">
+      <div class="site-container about-page-hero-inner">
+        <div class="about-page-hero-copy">
+          <div class="eyebrow">About Portland Home Guide</div>
+
+          <h1>
+            Local Housing Research,
+            <span>Built to Make the Portland Metro Easier to Understand.</span>
+          </h1>
+
+          <p>
+            The Portland Home Guide blog adds long-form context to the city guides,
+            neighborhood research, housing data and relocation resources on PortlandHomeGuide.com.
+          </p>
+
+          <div class="about-page-actions">
+            <a
+              class="site-button site-button-primary"
+              href={BRAND.mainSiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Explore Portland Home Guide
+            </a>
+
+            <a class="site-button site-button-secondary" href="/posts/">
+              Browse Articles
+            </a>
+          </div>
+        </div>
+
+        <div class="about-page-photo-wrap phg-about-photo-wrap">
+          <div class="about-page-photo-accent"></div>
+          <img
+            class="about-page-photo phg-about-photo"
+            src="/assets/oregon-hero.png"
+            alt="Portland Oregon landscape"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="site-container">
+        <div class="about-page-content-grid">
+          <aside class="about-page-sidebar">
+            <div class="about-page-sidebar-card">
+              <div class="eyebrow">Explore the Resource</div>
+              <h2>Portland Home Guide</h2>
+              <p>
+                Use the main site for community research and current housing context,
+                then use the blog when you want a deeper explanation of a specific topic.
+              </p>
+
+              <div class="about-page-contact-list phg-resource-links">
+                <a href={BRAND.mainSiteUrl} target="_blank" rel="noopener noreferrer">
+                  PortlandHomeGuide.com
+                </a>
+                <a href={BRAND.communitiesUrl} target="_blank" rel="noopener noreferrer">
+                  Compare Communities
+                </a>
+                <a href={BRAND.relocationUrl} target="_blank" rel="noopener noreferrer">
+                  Portland Relocation Guide
+                </a>
+                <a href="/posts/">All Blog Articles</a>
+              </div>
+            </div>
+          </aside>
+
+          <article class="about-page-prose prose">
+            <h2>What the Portland Home Guide Blog Is For</h2>
+            <p>
+              Portland Home Guide is built as a research-first housing resource for people
+              comparing Portland, its surrounding Oregon suburbs and Southwest Washington.
+              The main site organizes community guides, neighborhood information, housing
+              market context and practical relocation resources. The blog is where those
+              topics can be explored in more depth.
+            </p>
+            <p>
+              Articles focus on the questions that come up when someone is actually deciding
+              where to live or how to approach a housing decision: Portland versus Beaverton,
+              Oregon versus Washington, taxes, commuting, transit, weather, home-buying
+              trade-offs, new construction, investing and what daily life can look like in
+              different parts of the region.
+            </p>
+
+            <h2>How It Complements PortlandHomeGuide.com</h2>
+            <p>
+              A city or neighborhood page is useful when you want a structured overview. A
+              blog article is useful when the decision needs more explanation. The two are
+              designed to work together: use Portland Home Guide to compare places and data,
+              then use the blog to understand the reasoning, trade-offs and local context
+              behind those comparisons.
+            </p>
+            <p>
+              The goal is not to turn every article into a sales pitch. It is to make useful
+              local information easier to find, understand and apply before a move, purchase
+              or other real estate decision.
+            </p>
+
+            <h2>Who Creates the Content?</h2>
+            <p>
+              Portland Home Guide was created by Steven Tran, a Portland native and licensed
+              real estate broker in Oregon and Washington. The resource draws on the research,
+              questions and comparisons that come up in real conversations with buyers,
+              relocators, homeowners and investors throughout Portland Metro and Southwest Washington.
+            </p>
+            <p>
+              The site is intentionally more about the information than the person behind it.
+              Steven remains the author of many articles, and readers who want his professional
+              background, credentials or direct real estate help can find that separately on
+              his real estate website.
+            </p>
+
+            <p>
+              <a href={BRAND.externalAboutUrl} target="_blank" rel="noopener noreferrer">
+                Learn more about Steven Tran →
+              </a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section section-soft about-experience-section">
+      <div class="site-container">
+        <div class="section-heading centered-heading">
+          <div class="eyebrow">How to Use the Blog</div>
+          <h2>Research the Decision From More Than One Angle</h2>
+          <p>
+            The blog is organized around the practical questions people ask before choosing
+            a community, buying a home or planning a move.
+          </p>
+        </div>
+
+        <div class="about-experience-grid">
+          <article class="about-experience-card">
+            <span class="about-experience-number">01</span>
+            <h3>Community Context</h3>
+            <p>Compare cities, suburbs and neighborhoods based on housing, lifestyle, access and trade-offs.</p>
+          </article>
+
+          <article class="about-experience-card">
+            <span class="about-experience-number">02</span>
+            <h3>Market Explainers</h3>
+            <p>Put housing data, affordability, taxes and market conditions into practical local context.</p>
+          </article>
+
+          <article class="about-experience-card">
+            <span class="about-experience-number">03</span>
+            <h3>Relocation Research</h3>
+            <p>Understand commuting, transportation, weather and regional differences before making a move.</p>
+          </article>
+
+          <article class="about-experience-card">
+            <span class="about-experience-number">04</span>
+            <h3>Housing Decisions</h3>
+            <p>Explore home buying, new construction, ownership and investing topics without reducing them to a headline.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-page-cta-section">
+      <div class="site-container">
+        <div class="about-page-cta">
+          <div>
+            <div class="eyebrow eyebrow-light">Continue Your Research</div>
+            <h2>Go From an Article to the Full Portland Home Guide</h2>
+            <p>
+              Compare communities, neighborhood information, market context and relocation
+              resources across Portland Metro and Southwest Washington.
+            </p>
+          </div>
+
+          <div class="about-page-cta-actions">
+            <a
+              class="site-button site-button-primary"
+              href={BRAND.mainSiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Explore Portland Home Guide
+            </a>
+            <a
+              class="site-button site-button-light"
+              href={BRAND.communitiesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Compare Communities
+            </a>
+            <a
+              class="site-button site-button-light"
+              href={BRAND.relocationUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Relocation Guide
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+    ) : (
   <main id="main-content">
     <section class="about-page-hero">
       <div class="site-container about-page-hero-inner">
@@ -434,6 +647,8 @@ const description =
     </section>
 
   </main>
+    )
+  }
 
   <Footer />
 </Layout>

@@ -1,4 +1,6 @@
 ---
+import { BRAND } from "@config";
+
 export interface Props {
   activeNav?: "posts" | "tags" | "about" | "search";
 }
@@ -12,21 +14,28 @@ const { activeNav } = Astro.props;
   </a>
 
   <div class="site-container site-header-inner">
-
     <a
       class="site-brand"
       href="/"
-      aria-label="Steven Tran Real Estate Blog home"
+      aria-label={`${BRAND.siteName} home`}
     >
-      <img
-        class="site-brand-logo"
-        src="/assets/steventranlogo.png"
-        alt="Steven Tran Real Estate"
-      />
-
-      <span class="site-brand-subtitle">
-        Real Estate Blog
-      </span>
+      {
+        BRAND.logo ? (
+          <>
+            <img
+              class="site-brand-logo"
+              src={BRAND.logo}
+              alt={BRAND.logoAlt ?? BRAND.brandName}
+            />
+            <span class="site-brand-subtitle">{BRAND.brandSubtitle}</span>
+          </>
+        ) : (
+          <span class="site-brand-wordmark">
+            <strong>{BRAND.brandName}</strong>
+            <span>{BRAND.brandSubtitle}</span>
+          </span>
+        )
+      }
     </a>
 
     <button
@@ -46,101 +55,53 @@ const { activeNav } = Astro.props;
       class="site-navigation"
       aria-label="Main navigation"
     >
-      <a href="https://steventranrealestate.com/">
-        Real Estate
-      </a>
+      <a href={BRAND.mainSiteUrl}>{BRAND.headerMainLabel}</a>
+      <a href={BRAND.communitiesUrl}>Communities</a>
 
-      <a href="https://steventranrealestate.com/communities/">
-        Communities
-      </a>
-
-      <a
-        href="/posts/"
-        class={activeNav === "posts" ? "active" : ""}
-      >
+      <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
         Articles
       </a>
 
-      <a
-        href="/tags/"
-        class={activeNav === "tags" ? "active" : ""}
-      >
+      <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
         Topics
       </a>
 
-      <a
-        href="/about/"
-        class={activeNav === "about" ? "active" : ""}
-      >
+      <a href="/about/" class={activeNav === "about" ? "active" : ""}>
         About
       </a>
 
-      <a
-        href="/search/"
-        class={activeNav === "search" ? "active" : ""}
-      >
+      <a href="/search/" class={activeNav === "search" ? "active" : ""}>
         Search
       </a>
 
       <a
         class="nav-cta"
-        href="https://calendly.com/steven-diverserg/new-meeting"
-        target="_blank"
-        rel="noopener noreferrer"
+        href={BRAND.headerCtaUrl}
+        target={BRAND.headerCtaUrl.startsWith("http") ? "_blank" : undefined}
+        rel={BRAND.headerCtaUrl.startsWith("http") ? "noopener noreferrer" : undefined}
       >
-        Schedule a Call
+        {BRAND.headerCtaLabel}
       </a>
     </nav>
-
   </div>
 </header>
 
 <script>
   function setupMenu() {
-    const button =
-      document.querySelector(
-        ".mobile-menu-button"
-      );
+    const button = document.querySelector(".mobile-menu-button");
+    const nav = document.querySelector(".site-navigation");
 
-    const nav =
-      document.querySelector(
-        ".site-navigation"
-      );
-
-    if (
-      !(button instanceof HTMLButtonElement) ||
-      !(nav instanceof HTMLElement)
-    ) {
+    if (!(button instanceof HTMLButtonElement) || !(nav instanceof HTMLElement)) {
       return;
     }
 
-    button.addEventListener(
-      "click",
-      () => {
-        const isOpen =
-          nav.classList.toggle(
-            "is-open"
-          );
-
-        button.setAttribute(
-          "aria-expanded",
-          String(isOpen)
-        );
-
-        button.setAttribute(
-          "aria-label",
-          isOpen
-            ? "Close menu"
-            : "Open menu"
-        );
-      }
-    );
+    button.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("is-open");
+      button.setAttribute("aria-expanded", String(isOpen));
+      button.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+    });
   }
 
   setupMenu();
-
-  document.addEventListener(
-    "astro:after-swap",
-    setupMenu
-  );
+  document.addEventListener("astro:after-swap", setupMenu);
 </script>

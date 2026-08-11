@@ -986,3 +986,43 @@ Real Estate Broker
 Portland Metro & Southwest Washington
 
 Main website: steventranrealestate.com
+
+## Brand builds
+
+This blog can be built as either the Steven Tran Real Estate Blog or the Portland Home Guide Blog from the same Astro source.
+
+```bash
+# Existing/default Steven Tran build
+npm run build
+
+# Explicit Steven Tran build
+npm run build:steven-tran
+
+# Portland Home Guide build
+npm run build:portland-home-guide
+```
+
+For local development:
+
+```bash
+npm run dev:steven-tran
+npm run dev:portland-home-guide
+```
+
+Brand settings live in `src/brands.ts`. The Portland Home Guide build changes the site identity, navigation, homepage copy, About page, footer, article eyebrow, author treatment, CTA language, canonical site and analytics behavior without changing the blog post content itself.
+
+### Deployment URL
+
+The Portland Home Guide configuration defaults to `https://blog.portlandhomeguide.com`. If the final blog URL is different, override it at build time so Astro's canonical URLs and sitemap use the correct host:
+
+```bash
+SITE_URL=https://your-final-blog-domain.com npm run build:portland-home-guide
+```
+
+### Google Analytics
+
+The Steven Tran build keeps the existing Google Analytics ID. The Portland Home Guide build does not inherit that ID. Add a Portland Home Guide-specific ID when you are ready:
+
+```bash
+SITE_GA_ID=G-XXXXXXXXXX npm run build:portland-home-guide
+```

@@ -4,7 +4,7 @@ import Card from "@components/Card";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import Layout from "@layouts/Layout.astro";
-import { SITE } from "@config";
+import { BRAND, IS_PORTLAND_HOME_GUIDE, SITE } from "@config";
 import getSortedPosts from "@utils/getSortedPosts";
 
 const allPosts = await getCollection("blog");
@@ -20,52 +20,48 @@ const topicLinks = [
   {
     title: "Relocation",
     href: "/tags/relocation/",
-    description:
-      "Moving to Portland or Southwest Washington? Start here."
+    description: "Moving to Portland or Southwest Washington? Start here."
   },
   {
     title: "Portland",
     href: "/tags/portland/",
-    description:
-      "Neighborhoods, housing and local market insights."
+    description: "Neighborhoods, housing and local market insights."
   },
   {
     title: "Home Buying",
     href: "/tags/home-buying/",
-    description:
-      "Practical guidance for making a smarter purchase."
+    description: "Practical guidance for making a smarter purchase."
   },
   {
     title: "New Construction",
     href: "/tags/new-construction/",
-    description:
-      "Builders, incentives, communities and new homes."
+    description: "Builders, incentives, communities and new homes."
   },
   {
     title: "Investing",
     href: "/tags/real-estate-investing/",
-    description:
-      "Rental property, numbers and long-term strategy."
+    description: "Rental property, numbers and long-term strategy."
   },
   {
     title: "Southwest Washington",
     href: "/tags/washington/",
-    description:
-      "Vancouver, Camas and communities north of Portland."
+    description: "Vancouver, Camas and communities north of Portland."
   }
 ];
+
+const pageTitle = IS_PORTLAND_HOME_GUIDE
+  ? "Portland Home Guide Blog | Housing, Relocation & Local Research"
+  : `${SITE.title} | Portland Real Estate Blog`;
+
+const pageDescription = IS_PORTLAND_HOME_GUIDE
+  ? "Long-form Portland Metro and Southwest Washington housing research, relocation guides, community comparisons, market explainers and practical home-buying context."
+  : "Portland Metro and Southwest Washington real estate insights, local guides, relocation advice, homebuyer resources, new construction and investing.";
 ---
 
-<Layout
-  title={`${SITE.title} | Portland Real Estate Blog`}
-  description="Portland Metro and Southwest Washington real estate insights, local guides, relocation advice, homebuyer resources, new construction and investing."
->
+<Layout title={pageTitle} description={pageDescription}>
   <Header />
 
   <main id="main-content">
-
-    <!-- HERO -->
-
     <section class="blog-home-hero">
       <img
         class="blog-home-hero-image"
@@ -80,108 +76,90 @@ const topicLinks = [
       <div class="blog-home-hero-inner">
         <div class="blog-home-hero-copy">
           <div class="eyebrow eyebrow-light">
-            Portland Real Estate Blog
+            {IS_PORTLAND_HOME_GUIDE ? "Portland Home Guide Blog" : "Portland Real Estate Blog"}
           </div>
 
           <h1>
             Portland Metro &amp; Southwest Washington
-            <span>Real Estate Insights</span>
+            <span>
+              {IS_PORTLAND_HOME_GUIDE ? "Housing & Relocation Research" : "Real Estate Insights"}
+            </span>
           </h1>
 
           <p>
-            Local market updates, home buying advice, relocation resources,
-            community guides, new construction and real estate investing.
+            {
+              IS_PORTLAND_HOME_GUIDE
+                ? "Long-form local guides, market explainers, community comparisons, relocation research and practical housing context to help guide you in the Portland Metro housing market"
+                : "Local market updates, home buying advice, relocation resources, community guides, new construction and real estate investing."
+            }
           </p>
 
           <div class="blog-home-hero-actions">
-            <a
-              class="site-button site-button-primary"
-              href="/posts/"
-            >
+            <a class="site-button site-button-primary" href="/posts/">
               Browse Articles
             </a>
 
-            <a
-              class="site-button site-button-light"
-              href="https://steventranrealestate.com/#relocation"
-            >
-              Portland Relocation Guide
-            </a>
+            {
+              IS_PORTLAND_HOME_GUIDE ? (
+                <a
+                  class="site-button site-button-light"
+                  href={BRAND.mainSiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Explore Portland Home Guide
+                </a>
+              ) : (
+                <a class="site-button site-button-light" href={BRAND.relocationUrl}>
+                  Portland Relocation Guide
+                </a>
+              )
+            }
           </div>
         </div>
       </div>
     </section>
 
-
-    <!-- FEATURED -->
-
     {
       featuredPosts.length > 0 && (
         <section class="page-section">
           <div class="site-container">
-
             <div class="section-heading centered-heading">
-              <div class="eyebrow">
-                Featured
-              </div>
-
-              <h2>
-                Start Here
-              </h2>
-
+              <div class="eyebrow">Featured</div>
+              <h2>Start Here</h2>
               <p>
-                In-depth guides and resources for buying,
-                relocating and investing around Portland Metro
-                and Southwest Washington.
+                {IS_PORTLAND_HOME_GUIDE
+                  ? "In-depth research and practical guides for comparing communities, understanding housing decisions and planning a move around Portland Metro and Southwest Washington."
+                  : "In-depth guides and resources for buying, relocating and investing around Portland Metro and Southwest Washington."}
               </p>
             </div>
 
             <div class="featured-post-grid">
-              {
-                featuredPosts.map(post => (
-                  <Card
-                    href={`/posts/${post.slug}/`}
-                    frontmatter={post.data}
-                  />
-                ))
-              }
+              {featuredPosts.map(post => (
+                <Card href={`/posts/${post.slug}/`} frontmatter={post.data} />
+              ))}
             </div>
-
           </div>
         </section>
       )
     }
 
-
-    <!-- RECENT POSTS -->
-
     <section class="page-section section-soft">
       <div class="site-container">
-
         <div class="section-heading centered-heading">
-          <div class="eyebrow">
-            Latest From The Blog
-          </div>
-
-          <h2>
-            Recent Articles
-          </h2>
-
+          <div class="eyebrow">Latest From The Blog</div>
+          <h2>Recent Articles</h2>
           <p>
-            The latest Portland Metro and Southwest Washington real estate,
-            relocation, home buying and market articles.
+            {IS_PORTLAND_HOME_GUIDE
+              ? "The latest local housing, relocation, community and market research for Portland Metro and Southwest Washington."
+              : "The latest Portland Metro and Southwest Washington real estate, relocation, home buying and market articles."}
           </p>
         </div>
 
         <div class="post-grid">
-          {
-            recentPosts.map(post => (
-              <Card
-                href={`/posts/${post.slug}/`}
-                frontmatter={post.data}
-              />
-            ))
-          }
+          {recentPosts.map(post => (
+            <Card href={`/posts/${post.slug}/`} frontmatter={post.data} />
+          ))}
         </div>
 
         <div class="section-action">
@@ -189,109 +167,95 @@ const topicLinks = [
             View All Articles
           </a>
         </div>
-
       </div>
     </section>
 
-
-    <!-- TOPICS -->
-
     <section class="page-section">
       <div class="site-container">
-
         <div class="section-heading centered-heading">
-          <div class="eyebrow">
-            Explore By Topic
-          </div>
-
-          <h2>
-            Find What You're Looking For
-          </h2>
-
+          <div class="eyebrow">Explore By Topic</div>
+          <h2>Find What You're Looking For</h2>
           <p>
-            Browse real estate information based on where
-            you are in your home buying, relocation or
-            investing journey.
+            {IS_PORTLAND_HOME_GUIDE
+              ? "Browse deeper explainers by topic, from relocation and community research to home buying, new construction and investing."
+              : "Browse real estate information based on where you are in your home buying, relocation or investing journey."}
           </p>
         </div>
 
         <div class="topic-grid">
-          {
-            topicLinks.map(topic => (
-              <a
-                class="topic-card"
-                href={topic.href}
-              >
-                <h3>
-                  {topic.title}
-                </h3>
-
-                <p>
-                  {topic.description}
-                </p>
-
-                <span>
-                  Explore Topic →
-                </span>
-              </a>
-            ))
-          }
+          {topicLinks.map(topic => (
+            <a class="topic-card" href={topic.href}>
+              <h3>{topic.title}</h3>
+              <p>{topic.description}</p>
+              <span>Explore Topic →</span>
+            </a>
+          ))}
         </div>
-
       </div>
     </section>
-
-
-    <!-- RELOCATION CTA -->
 
     <section class="relocation-cta-section">
       <div class="site-container">
-
         <div class="relocation-cta">
-
           <div class="relocation-cta-copy">
-
             <div class="eyebrow eyebrow-light">
-              Moving To Portland?
+              {IS_PORTLAND_HOME_GUIDE ? "Keep Exploring" : "Moving To Portland?"}
             </div>
 
             <h2>
-              Start With My Free Portland Relocation Guide
+              {IS_PORTLAND_HOME_GUIDE
+                ? "Use Portland Home Guide to Compare the Region"
+                : "Start With My Free Portland Relocation Guide"}
             </h2>
 
             <p>
-              Get practical information about Portland-area
-              neighborhoods, suburbs, housing and what to
-              consider before making your move.
+              {IS_PORTLAND_HOME_GUIDE
+                ? "Move from long-form articles into city guides, neighborhood research, current housing market context and relocation resources on PortlandHomeGuide.com."
+                : "Get practical information about Portland-area neighborhoods, suburbs, housing and what to consider before making your move."}
             </p>
-
           </div>
 
           <div class="relocation-cta-actions">
-
-            <a
-              class="site-button site-button-primary"
-              href="https://steventranrealestate.com/#relocation"
-            >
-              Get the Free Guide
-            </a>
-
-            <a
-              class="site-button site-button-light"
-              href="https://calendly.com/steven-diverserg/new-meeting"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Schedule a Call
-            </a>
-
+            {
+              IS_PORTLAND_HOME_GUIDE ? (
+                <>
+                  <a
+                    class="site-button site-button-primary"
+                    href={BRAND.communitiesUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Compare Communities
+                  </a>
+                  <a
+                    class="site-button site-button-light"
+                    href={BRAND.relocationUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Relocation Guide
+                  </a>
+                </>
+              ) : (
+                <>
+                  <a class="site-button site-button-primary" href={BRAND.relocationUrl}>
+                    Get the Free Guide
+                  </a>
+                  <a
+                    class="site-button site-button-light"
+                    href={BRAND.helpUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Schedule a Call
+                  </a>
+                </>
+              )
+            }
           </div>
-
         </div>
-
       </div>
     </section>
-
   </main>
 
   <Footer />

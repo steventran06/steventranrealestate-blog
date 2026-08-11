@@ -830,6 +830,10 @@
 }
 
 /* Footer */
+.footer-brand-logo {
+  max-width: 150px;
+}
+
 .site-footer {
   margin-top: auto;
   padding: 62px 0 24px;
@@ -1125,13 +1129,7 @@
   position: relative;
   overflow: hidden;
   padding: 86px 0 92px;
-  background:
-    linear-gradient(
-      135deg,
-      #f6f8fb 0%,
-      #ffffff 58%,
-      #eaf2ff 100%
-    );
+  background: linear-gradient(135deg, #f6f8fb 0%, #ffffff 58%, #eaf2ff 100%);
 }
 
 .about-page-hero-inner {
@@ -1269,8 +1267,7 @@
 
 .about-experience-grid {
   display: grid;
-  grid-template-columns:
-    repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 20px;
 }
 
@@ -1318,12 +1315,7 @@
   align-items: center;
   padding: 48px;
   color: #ffffff;
-  background:
-    linear-gradient(
-      135deg,
-      #18212d 0%,
-      #233753 100%
-    );
+  background: linear-gradient(135deg, #18212d 0%, #233753 100%);
   border-radius: var(--radius-large);
   box-shadow: var(--shadow-card);
 }
@@ -1368,8 +1360,7 @@
   }
 
   .about-experience-grid {
-    grid-template-columns:
-      repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .about-page-cta-actions {
@@ -1414,7 +1405,6 @@
     padding: 34px 26px;
   }
 }
-
 
 /* About sidebar contact links */
 .about-page-contact-list {
@@ -1720,14 +1710,13 @@
   inset: 0;
   z-index: 1;
 
-  background:
-    linear-gradient(
-      90deg,
-      rgba(10, 20, 34, 0.88) 0%,
-      rgba(10, 20, 34, 0.72) 42%,
-      rgba(10, 20, 34, 0.38) 72%,
-      rgba(10, 20, 34, 0.16) 100%
-    );
+  background: linear-gradient(
+    90deg,
+    rgba(10, 20, 34, 0.88) 0%,
+    rgba(10, 20, 34, 0.72) 42%,
+    rgba(10, 20, 34, 0.38) 72%,
+    rgba(10, 20, 34, 0.16) 100%
+  );
 }
 
 .blog-home-hero-inner {
@@ -1988,18 +1977,11 @@
 
   color: #ffffff;
 
-  background:
-    linear-gradient(
-      135deg,
-      #18212d 0%,
-      #24364d 100%
-    );
+  background: linear-gradient(135deg, #18212d 0%, #24364d 100%);
 
   border-radius: 18px;
 
-  box-shadow:
-    0 18px 45px
-    rgba(24, 33, 45, 0.12);
+  box-shadow: 0 18px 45px rgba(24, 33, 45, 0.12);
 }
 
 .relocation-cta-copy {
@@ -2046,7 +2028,6 @@
   white-space: nowrap;
 }
 
-
 /* TABLET */
 
 @media (max-width: 991.98px) {
@@ -2070,7 +2051,6 @@
     width: auto;
   }
 }
-
 
 /* MOBILE */
 
@@ -2099,5 +2079,95 @@
 
   .relocation-cta-actions .site-button {
     width: 100%;
+  }
+}
+/* ========================================
+   PORTLAND HOME GUIDE BRAND
+======================================== */
+
+body[data-site-brand="portland-home-guide"] {
+  --phg-navy: #273f5f;
+  --phg-teal: #2a9fa3;
+  --phg-coral: #e56f69;
+  --background-dark: #20364f;
+}
+
+body[data-site-brand="portland-home-guide"] .site-brand-wordmark {
+  display: flex;
+  flex-direction: column;
+  min-width: 210px;
+  line-height: 1.05;
+}
+
+body[data-site-brand="portland-home-guide"] .site-brand-wordmark strong {
+  color: var(--phg-navy);
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+body[data-site-brand="portland-home-guide"] .site-brand-wordmark span {
+  margin-top: 5px;
+  color: var(--phg-coral);
+  font-family: "Poppins", sans-serif;
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+body[data-site-brand="portland-home-guide"] .blog-home-hero-copy h1 span,
+body[data-site-brand="portland-home-guide"] .about-page-hero-copy h1 span {
+  color: #70c8c8;
+}
+
+body[data-site-brand="portland-home-guide"] .site-footer {
+  background: var(--phg-navy);
+}
+
+body[data-site-brand="portland-home-guide"] .article-relocation-cta,
+body[data-site-brand="portland-home-guide"] .relocation-cta,
+body[data-site-brand="portland-home-guide"] .about-page-cta {
+  background: linear-gradient(135deg, #20364f 0%, #275566 100%);
+}
+
+body[data-site-brand="portland-home-guide"] .about-page-hero {
+  background: linear-gradient(135deg, #f6f8fb 0%, #ffffff 58%, #eaf7f6 100%);
+}
+
+body[data-site-brand="portland-home-guide"] .phg-about-photo-wrap {
+  max-width: 500px;
+}
+
+body[data-site-brand="portland-home-guide"] .phg-about-photo {
+  aspect-ratio: 4 / 3;
+  object-position: center;
+}
+
+body[data-site-brand="portland-home-guide"] .phg-resource-links a {
+  display: block;
+  padding: 10px 8px;
+  color: var(--text-primary);
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+body[data-site-brand="portland-home-guide"] .phg-resource-links a:hover {
+  color: var(--brand-primary);
+}
+
+@media (max-width: 767.98px) {
+  body[data-site-brand="portland-home-guide"] .site-brand-wordmark {
+    min-width: 0;
+  }
+
+  body[data-site-brand="portland-home-guide"] .site-brand-wordmark strong {
+    font-size: 18px;
+  }
+
+  body[data-site-brand="portland-home-guide"] .site-brand-wordmark span {
+    font-size: 7px;
   }
 }
