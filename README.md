@@ -14,19 +14,19 @@ This repository powers the article and educational content side of Steven Tran R
 
 The blog includes:
 
-* Real estate articles
-* Portland relocation content
-* Local market reports
-* Homebuyer education
-* Neighborhood and community information
-* New construction content
-* Down payment assistance resources
-* Real estate investing content
-* Topic/tag archives
-* Search
-* Featured articles
-* About page
-* Links back to the primary real estate website
+- Real estate articles
+- Portland relocation content
+- Local market reports
+- Homebuyer education
+- Neighborhood and community information
+- New construction content
+- Down payment assistance resources
+- Real estate investing content
+- Topic/tag archives
+- Search
+- Featured articles
+- About page
+- Links back to the primary real estate website
 
 The site began with AstroPaper and has been customized substantially to better match the design and branding of steventranrealestate.com.
 
@@ -38,16 +38,16 @@ Because of that history, some older AstroPaper components or styles may still ex
 
 The blog uses:
 
-* Astro
-* TypeScript / JavaScript
-* Astro Content Collections
-* Markdown
-* React where required by interactive components
-* CSS
-* Fuse.js for search
-* Jampack
-* Netlify
-* Git / GitHub
+- Astro
+- TypeScript / JavaScript
+- Astro Content Collections
+- Markdown
+- React where required by interactive components
+- CSS
+- Fuse.js for search
+- Jampack
+- Netlify
+- Git / GitHub
 
 ---
 
@@ -317,12 +317,12 @@ Articles can be organized using tags.
 
 Topic pages provide visitors with a way to browse content by subject, including areas such as:
 
-* relocation
-* Portland
-* home buying
-* new construction
-* real estate investing
-* Southwest Washington
+- relocation
+- Portland
+- home buying
+- new construction
+- real estate investing
+- Southwest Washington
 
 When adding tags, use consistent naming.
 
@@ -374,7 +374,7 @@ public/assets/oregon-hero.png
 Public Astro assets can be referenced from the root:
 
 ```html
-<img src="/assets/oregon-hero.png" alt="Portland Oregon">
+<img src="/assets/oregon-hero.png" alt="Portland Oregon" />
 ```
 
 The image should therefore be available locally at:
@@ -387,9 +387,9 @@ If the image does not appear, test that URL directly.
 
 A 404 normally means:
 
-* the file is not in `public/assets/`
-* the filename is incorrect
-* capitalization does not match
+- the file is not in `public/assets/`
+- the filename is incorrect
+- capitalization does not match
 
 Remember that production environments can be case-sensitive even when a local filesystem appears forgiving.
 
@@ -458,12 +458,12 @@ section uses dedicated topic cards.
 
 These are separate from article cards and should retain:
 
-* card backgrounds
-* borders
-* spacing
-* descriptions
-* topic links
-* hover states
+- card backgrounds
+- borders
+- spacing
+- descriptions
+- topic links
+- hover states
 
 The layout should generally use:
 
@@ -535,15 +535,15 @@ The homepage intentionally focuses on Portland real estate content rather than u
 
 The About page can contain:
 
-* professional background
-* Portland connection
-* real estate experience
-* investment experience
-* analytical approach to home buying
-* YouTube content
-* social links
-* brokerage information
-* contact options
+- professional background
+- Portland connection
+- real estate experience
+- investment experience
+- analytical approach to home buying
+- YouTube content
+- social links
+- brokerage information
+- contact options
 
 This keeps the homepage focused on information while still making personal background easy to find.
 
@@ -555,11 +555,11 @@ The About page may link to Steven Tran's real estate YouTube channel.
 
 The channel includes:
 
-* property tours
-* Portland-area real estate information
-* homebuyer education
-* neighborhood/community information
-* relocation resources
+- property tours
+- Portland-area real estate information
+- homebuyer education
+- neighborhood/community information
+- relocation resources
 
 YouTube content supports the same goal as the blog: helping buyers make more informed and analytical real estate decisions.
 
@@ -653,12 +653,12 @@ without considering icons.
 
 The blog contains SVGs used for:
 
-* search
-* pagination
-* social links
-* footer elements
-* sidebar links
-* navigation
+- search
+- pagination
+- social links
+- footer elements
+- sidebar links
+- navigation
 
 Prefer scoped selectors.
 
@@ -862,20 +862,20 @@ npm run build
 
 Check:
 
-* title
-* description
-* publication date
-* slug
-* duplicate slugs
-* tags
-* featured status
-* headings
-* links
-* images
-* alt text
-* mobile formatting
-* internal links
-* CTA relevance
+- title
+- description
+- publication date
+- slug
+- duplicate slugs
+- tags
+- featured status
+- headings
+- links
+- images
+- alt text
+- mobile formatting
+- internal links
+- CTA relevance
 
 ---
 
@@ -891,14 +891,14 @@ steventranrealestate
 
 Focuses on:
 
-* services
-* cities
-* communities
-* relocation
-* YouTube
-* reviews
-* lead generation
-* contact
+- services
+- cities
+- communities
+- relocation
+- YouTube
+- reviews
+- lead generation
+- contact
 
 ## Blog
 
@@ -908,12 +908,12 @@ steventranrealestate-blog
 
 Focuses on:
 
-* long-form education
-* market analysis
-* guides
-* SEO content
-* searchable articles
-* topic archives
+- long-form education
+- market analysis
+- guides
+- SEO content
+- searchable articles
+- topic archives
 
 The sites should link naturally to each other.
 
@@ -945,15 +945,15 @@ Content should prioritize usefulness over keyword stuffing.
 
 The blog should help people understand:
 
-* what it is actually like to buy in the Portland Metro area
-* differences between Oregon and Southwest Washington
-* local communities
-* financing and assistance programs
-* new construction
-* housing market conditions
-* relocation considerations
-* real estate investing
-* the practical tradeoffs involved in buying a home
+- what it is actually like to buy in the Portland Metro area
+- differences between Oregon and Southwest Washington
+- local communities
+- financing and assistance programs
+- new construction
+- housing market conditions
+- relocation considerations
+- real estate investing
+- the practical tradeoffs involved in buying a home
 
 The writing should support informed decisions rather than simply generating search traffic.
 
@@ -963,19 +963,19 @@ The writing should support informed decisions rather than simply generating sear
 
 When maintaining this project:
 
-* Run the production build before deploying.
-* Keep content slugs unique.
-* Avoid unnecessary global CSS overrides.
-* Scope SVG and icon styles.
-* Test desktop and mobile.
-* Keep tags consistent.
-* Keep the blog visually aligned with the primary website.
-* Put static assets in `public`.
-* Avoid manually editing generated output.
-* Preserve semantic HTML and accessibility.
-* Use descriptive image alt text.
-* Link relevant articles to main-site resources.
-* Link main-site pages back to useful blog content where appropriate.
+- Run the production build before deploying.
+- Keep content slugs unique.
+- Avoid unnecessary global CSS overrides.
+- Scope SVG and icon styles.
+- Test desktop and mobile.
+- Keep tags consistent.
+- Keep the blog visually aligned with the primary website.
+- Put static assets in `public`.
+- Avoid manually editing generated output.
+- Preserve semantic HTML and accessibility.
+- Use descriptive image alt text.
+- Link relevant articles to main-site resources.
+- Link main-site pages back to useful blog content where appropriate.
 
 ---
 
@@ -989,14 +989,14 @@ Main website: steventranrealestate.com
 
 ## Brand builds
 
-This blog can be built as either the Steven Tran Real Estate Blog or the Portland Home Guide Blog from the same Astro source.
+This blog can be built as either the Steven Tran Real Estate Blog or the Portland Home Guide Articles from the same Astro source.
 
 ```bash
 # Existing/default Steven Tran build
 npm run build
 
 # Explicit Steven Tran build
-npm run build:steven-tran
+npm run build
 
 # Portland Home Guide build
 npm run build:portland-home-guide
@@ -1013,7 +1013,7 @@ Brand settings live in `src/brands.ts`. The Portland Home Guide build changes th
 
 ### Deployment URL
 
-The Portland Home Guide configuration defaults to `https://blog.portlandhomeguide.com`. If the final blog URL is different, override it at build time so Astro's canonical URLs and sitemap use the correct host:
+The Portland Home Guide configuration defaults to `https://articles.portlandhomeguide.com`. If the final blog URL is different, override it at build time so Astro's canonical URLs and sitemap use the correct host:
 
 ```bash
 SITE_URL=https://your-final-blog-domain.com npm run build:portland-home-guide
