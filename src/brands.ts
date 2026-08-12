@@ -108,8 +108,8 @@ export const BRANDS: Record<BrandId, BlogBrand> = {
   },
   "portland-home-guide": {
     id: "portland-home-guide",
-    siteName: "Portland Home Guide Blog",
-    blogTitle: "Portland Home Guide Blog",
+    siteName: "Portland Home Guide - Articles",
+    blogTitle: "Portland Home Guide - Articles",
     description:
       "Long-form Portland Metro and Southwest Washington housing research, relocation guides, community comparisons, market explainers and practical home-buying context from Portland Home Guide.",
     author: "Steven Tran",
