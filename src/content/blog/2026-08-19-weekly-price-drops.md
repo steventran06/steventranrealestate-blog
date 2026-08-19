@@ -54,7 +54,7 @@ Availability, pricing, incentives and property details can change at any time.
 **Bedrooms:** 4  
 **Bathrooms:** 3 full  
 **Square feet:** 4,080  
-**Year built:** 2,000
+**Year built:** 2000
 
 A 4-bed, 3-bath Northwest Contemporary built in 2000 with 4,080 finished square feet on a roughly quarter-acre lot. The layout emphasizes walls of glass, vaulted ceilings and a large chef’s kitchen with oversized island and walk-in pantry. The main living level opens to a level walk-out backyard with mature landscaping and multiple outdoor spaces, plus an attached oversized garage.
 
@@ -75,7 +75,7 @@ Panoramic views of Mt. Hood, Mt. Jefferson and Mt. St. Helens combine with a rar
 **Bedrooms:** 3  
 **Bathrooms:** 3 full, 1 partial  
 **Square feet:** 2,080  
-**Year built:** 1,965
+**Year built:** 1965
 
 Remodeled 3-bedroom home (with a permitted ADU) on a quarter-acre lot delivering about 2,080 square feet. Updates include a designer kitchen with Taj Mahal quartzite countertops, KitchenAid appliances, waterfall island and walk-in pantry. The primary suite features floor-to-ceiling tile and heated floors. New roof, electrical panel and other system upgrades are listed, and the ADU has a private entrance and separate living spaces.
 
@@ -96,7 +96,7 @@ High-end kitchen materials and a spa-style primary bath give the main house a fi
 **Bedrooms:** 4  
 **Bathrooms:** 3 full  
 **Square feet:** 3,232  
-**Year built:** 1,952
+**Year built:** 1952
 
 A 4-bed, 3-bath residence built in 1952 with about 3,232 square feet on a .37-acre lot, plus an oversized roughly 1,169-square-foot garage. The property features an above-ground heated pool surrounded by Trex decking, a large freshly stained main deck, a finished lower level and a fully fenced yard with tall cedar fencing. Recent system upgrades and garage EV chargers are noted.
 
@@ -117,7 +117,7 @@ The combination of private outdoor amenities—a gas-heated 32' x 16' pool, expa
 **Bedrooms:** 6  
 **Bathrooms:** 4 full, 1 partial  
 **Square feet:** 4,697  
-**Year built:** 1,997
+**Year built:** 1997
 
 Grand Craftsman-style home from 1997 on 2.5 acres with approximately 4,697 square feet, six bedrooms and 4.1 baths. Interior highlights include a vaulted, beamed great room with fireplace, a gourmet kitchen with double ovens and a butler’s pantry, plus multiple offices. The lower level adds flexible living with high ceilings and extra bedrooms. Exterior assets include a wraparound deck, raised garden beds and detached garage.
 
@@ -133,12 +133,12 @@ This West Hills property pairs substantial indoor entertaining spaces and Crafts
 
 **Address:** [3550 SOUTHSHORE BLVD Lake Oswego, OR 97034](https://www.zillow.com/homes/3550-SOUTHSHORE-BLVD-Lake-Oswego-OR-97034_rb/)  
 **Current price:** \$1,250,000  
-**Original list price:** \$1,375,000
-**Reduction from original price:** About \$125,000
+**Original list price:** \$1,375,000  
+**Reduction from original price:** About \$125,000  
 **Bedrooms:** 3  
 **Bathrooms:** 2 full, 1 partial  
 **Square feet:** 2,346  
-**Year built:** 1,956
+**Year built:** 1956
 
 Completely reimagined mid-century modern residence built in 1956 with about 2,346 square feet and three bedrooms. The renovation emphasizes open living, large picture windows and a remodeled kitchen with quartz counters and a walk-in pantry. A primary suite addition includes a spa-style bathroom and walk-in closet. Extensive systems work and new exterior landscaping are included, with noted access to several private lake easements.
 

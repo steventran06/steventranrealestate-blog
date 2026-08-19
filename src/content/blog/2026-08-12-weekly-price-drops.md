@@ -33,19 +33,19 @@ These homes were selected because they combine meaningful price changes with loc
 
 Availability, pricing, incentives and property details can change at any time.
 
-* * *
+---
 
 ## 🏡 This Week’s Portland Metro Price Drops
 
-| Address | Current Price | Original Price | Reduction From Original Price |
-|---|---:|---:|---:|
-| [4674 Chelsea LN Lake Oswego, OR 97035](https://www.zillow.com/homes/4674-Chelsea-LN-Lake-Oswego-OR-97035_rb/) | \$1,200,000 | \$1,999,000 | About \$799,000 |
-| [1300 TYNDALL CT Lake Oswego, OR 97034](https://www.zillow.com/homes/1300-TYNDALL-CT-Lake-Oswego-OR-97034_rb/) | \$1,500,000 | \$1,550,000 | About \$50,000 |
-| [2635 SW SHERWOOD PL Portland, OR 97201](https://www.zillow.com/homes/2635-SW-SHERWOOD-PL-Portland-OR-97201_rb/) | \$695,000 | \$875,000 | About \$180,000 |
-| [7540 SW BECKY CT Beaverton, OR 97007](https://www.zillow.com/homes/7540-SW-BECKY-CT-Beaverton-OR-97007_rb/) | \$744,000 | \$895,000 | About \$151,000 |
-| [9228 NW WILEY LN Portland, OR 97229](https://www.zillow.com/homes/9228-NW-WILEY-LN-Portland-OR-97229_rb/) | \$1,198,000 | \$1,250,000 | About \$52,000 |
+| Address                                                                                                          | Current Price | Original Price | Reduction From Original Price |
+| ---------------------------------------------------------------------------------------------------------------- | ------------: | -------------: | ----------------------------: |
+| [4674 Chelsea LN Lake Oswego, OR 97035](https://www.zillow.com/homes/4674-Chelsea-LN-Lake-Oswego-OR-97035_rb/)   |   \$1,200,000 |    \$1,999,000 |               About \$799,000 |
+| [1300 TYNDALL CT Lake Oswego, OR 97034](https://www.zillow.com/homes/1300-TYNDALL-CT-Lake-Oswego-OR-97034_rb/)   |   \$1,500,000 |    \$1,550,000 |                About \$50,000 |
+| [2635 SW SHERWOOD PL Portland, OR 97201](https://www.zillow.com/homes/2635-SW-SHERWOOD-PL-Portland-OR-97201_rb/) |     \$695,000 |      \$875,000 |               About \$180,000 |
+| [7540 SW BECKY CT Beaverton, OR 97007](https://www.zillow.com/homes/7540-SW-BECKY-CT-Beaverton-OR-97007_rb/)     |     \$744,000 |      \$895,000 |               About \$151,000 |
+| [9228 NW WILEY LN Portland, OR 97229](https://www.zillow.com/homes/9228-NW-WILEY-LN-Portland-OR-97229_rb/)       |   \$1,198,000 |    \$1,250,000 |                About \$52,000 |
 
-* * *
+---
 
 ## 1. 2 Story Home in Lake Oswego
 
@@ -58,7 +58,7 @@ Availability, pricing, incentives and property details can change at any time.
 **Bedrooms:** 4  
 **Bathrooms:** 2 full, 1 partial  
 **Square feet:** 3,148  
-**Year built:** 1,994
+**Year built:** 1994
 
 Updated NW contemporary two-story offering 4 bedrooms, 2 full and 1 half baths across 3,148 square feet. The main floor includes formal living and dining, a den, and a chef-grade kitchen with gas range, Miele induction cooktop, and multiple ovens. The great room opens to a stamped concrete patio with retractable awning. Primary suite features a remodeled spa bath and a generous walk-in closet.
 
@@ -66,7 +66,7 @@ Updated NW contemporary two-story offering 4 bedrooms, 2 full and 1 half baths a
 
 Documented six-figure plus upgrades throughout: high-end appliances, multiple modern mechanicals (high-efficiency HVAC, tankless water heater, whole-home filtration), backup generator, two gas fireplaces and extensive outdoor entertaining spaces.
 
-* * *
+---
 
 ## 2. Georgian Home in South Shore Estates
 
@@ -79,7 +79,7 @@ Documented six-figure plus upgrades throughout: high-end appliances, multiple mo
 **Bedrooms:** 5  
 **Bathrooms:** 3 full, 2 partial  
 **Square feet:** 4,209  
-**Year built:** 1,989
+**Year built:** 1989
 
 Traditional Georgian on roughly 0.88 acre in South Shore Estates with 5 bedrooms, 3 full and 2 half baths and 4,209 square feet. Main-level owner’s suite includes a full bath and walk-in closet; the plan also offers a separate upstairs living suite. The property has a sport court, covered patio, updated kitchen with new gas cooktop and stainless appliances, and substantial recent reinvestment.
 
@@ -87,7 +87,7 @@ Traditional Georgian on roughly 0.88 acre in South Shore Estates with 5 bedrooms
 
 Large, park-like lot with 4-car parking, on-site sport court and a fully independent upstairs suite. Over $300,000 in improvements—roof, windows, HVAC, on-demand water heater and EV charger—give visible systems upgrades.
 
-* * *
+---
 
 ## 3. Traditional Home in Portland
 
@@ -100,7 +100,7 @@ Large, park-like lot with 4-car parking, on-site sport court and a fully indepen
 **Bedrooms:** 3  
 **Bathrooms:** 2 full  
 **Square feet:** 2,443  
-**Year built:** 1,974
+**Year built:** 1974
 
 Close-in SW Portland traditional with 3 bedrooms, 2 baths and about 2,443 square feet. Open main living connects kitchen and family room with hardwood floors, large nature-facing windows and two gas fireplaces. Exterior spaces include a deck and patio overlooking a fenced yard with an artificial turf area for pets. The kitchen offers granite counters, cherry cabinets and a gas range.
 
@@ -108,7 +108,7 @@ Close-in SW Portland traditional with 3 bedrooms, 2 baths and about 2,443 square
 
 A significant $180,000 reduction on a close-in property with panoramic nature views, an open entertaining plan, fenced yard and a natural gas generator—features that appeal to urban buyers seeking convenience and resilience.
 
-* * *
+---
 
 ## 4. Traditional Home in Cooper Mountain
 
@@ -121,7 +121,7 @@ A significant $180,000 reduction on a close-in property with panoramic nature vi
 **Bedrooms:** 5  
 **Bathrooms:** 4 full, 1 partial  
 **Square feet:** 4,653  
-**Year built:** 2,004
+**Year built:** 2004
 
 Traditional Cooper Mountain home with 5 bedrooms, 4 full and 1 half baths across 4,653 square feet on a 0.34-acre lot. The gourmet kitchen opens to a walk-out deck; main floor includes a primary ensuite and a bright office with built-ins. Lower level has multiple bedrooms, a family room, hobby space and a separate suite with its own entrance and walk-out deck. Three-car garage and two laundry rooms.
 
@@ -129,7 +129,7 @@ Traditional Cooper Mountain home with 5 bedrooms, 4 full and 1 half baths across
 
 Very large finished area with a separate lower-level entrance and versatile bonus rooms—ideal for multigenerational use or home-based activities. Three-car garage, recent roof and cul-de-sac setting add practical value.
 
-* * *
+---
 
 ## 5. Country French Home in FOREST HEIGHTS
 
@@ -142,7 +142,7 @@ Very large finished area with a separate lower-level entrance and versatile bonu
 **Bedrooms:** 4  
 **Bathrooms:** 3 full, 1 partial  
 **Square feet:** 4,246  
-**Year built:** 1,998
+**Year built:** 1998
 
 Custom Forest Heights residence offering 4 bedrooms, 3 full and 1 half baths and roughly 4,246 square feet. European-inspired details include arched entries, hardwood floors and a sunroom with territorial views. The chef’s kitchen features custom canary wood cabinetry and Wolf/Sub-Zero appliances. Main-floor primary suite has a sitting room, deck and fireplace. Property includes whole-home generator and EV charger.
 
@@ -150,7 +150,7 @@ Custom Forest Heights residence offering 4 bedrooms, 3 full and 1 half baths and
 
 High-end custom finishes—canary wood cabinetry and specialty millwork—paired with a primary suite on the main level, a sunroom with wide views, and full-house mechanicals including a Kohler generator and EV charging.
 
-* * *
+---
 
 ## What Buyers Should Know About Price Reductions
 
@@ -160,7 +160,7 @@ A price reduction can indicate seller motivation, but it can also mean that the 
 
 The reduction itself is only one piece of the puzzle. Buyers should still review comparable sales, property condition, disclosures, inspection findings, financing terms and neighborhood demand before deciding how much value a price change actually creates.
 
-* * *
+---
 
 ## Interested in One of These Homes?
 
