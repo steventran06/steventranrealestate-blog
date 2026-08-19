@@ -29,19 +29,19 @@ These homes were selected because they combine meaningful price changes with loc
 
 Availability, pricing, incentives and property details can change at any time.
 
-* * *
+---
 
 ## 🏡 This Week’s Portland Metro Price Drops
 
-| Address | Current Price | Original Price | Reduction From Original Price |
-|---|---:|---:|---:|
-| [8 GARIBALDI ST Lake Oswego, OR 97035](https://www.zillow.com/homes/8-GARIBALDI-ST-Lake-Oswego-OR-97035_rb/) | \$1,175,000 | \$1,229,000 | About \$54,000 |
-| [6375 SW DAWN ST Lake Oswego, OR 97035](https://www.zillow.com/homes/6375-SW-DAWN-ST-Lake-Oswego-OR-97035_rb/) | \$1,199,000 | \$1,349,000 | About \$150,000 |
-| [6286 SW HARRINGTON AVE Lake Oswego, OR 97035](https://www.zillow.com/homes/6286-SW-HARRINGTON-AVE-Lake-Oswego-OR-97035_rb/) | \$949,900 | \$1,125,000 | About \$175,000 |
-| [483 NW SKYLINE CREST RD Portland, OR 97229](https://www.zillow.com/homes/483-NW-SKYLINE-CREST-RD-Portland-OR-97229_rb/) | \$1,240,000 | \$1,290,000 | About \$50,000 |
-| [3550 SOUTHSHORE BLVD Lake Oswego, OR 97034](https://www.zillow.com/homes/3550-SOUTHSHORE-BLVD-Lake-Oswego-OR-97034_rb/) | \$1,250,000 | \$13,500,001,450,000 | About \$13,500,000,200,000 |
+| Address                                                                                                                      | Current Price | Original Price | Reduction From Original Price |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------: | -------------: | ----------------------------: |
+| [8 GARIBALDI ST Lake Oswego, OR 97035](https://www.zillow.com/homes/8-GARIBALDI-ST-Lake-Oswego-OR-97035_rb/)                 |   \$1,175,000 |    \$1,229,000 |                About \$54,000 |
+| [6375 SW DAWN ST Lake Oswego, OR 97035](https://www.zillow.com/homes/6375-SW-DAWN-ST-Lake-Oswego-OR-97035_rb/)               |   \$1,199,000 |    \$1,349,000 |               About \$150,000 |
+| [6286 SW HARRINGTON AVE Lake Oswego, OR 97035](https://www.zillow.com/homes/6286-SW-HARRINGTON-AVE-Lake-Oswego-OR-97035_rb/) |     \$949,900 |    \$1,125,000 |               About \$175,000 |
+| [483 NW SKYLINE CREST RD Portland, OR 97229](https://www.zillow.com/homes/483-NW-SKYLINE-CREST-RD-Portland-OR-97229_rb/)     |   \$1,240,000 |    \$1,290,000 |                About \$50,000 |
+| [3550 SOUTHSHORE BLVD Lake Oswego, OR 97034](https://www.zillow.com/homes/3550-SOUTHSHORE-BLVD-Lake-Oswego-OR-97034_rb/)     |   \$1,250,000 |    \$1,375,000 |               About \$125,000 |
 
-* * *
+---
 
 ## 1. Contemporary Home in Lake Oswego
 
@@ -62,7 +62,7 @@ A 4-bed, 3-bath Northwest Contemporary built in 2000 with 4,080 finished square 
 
 Panoramic views of Mt. Hood, Mt. Jefferson and Mt. St. Helens combine with a rare level walk-out backyard for a true indoor-outdoor lifestyle. Mechanical upgrades like hydronic radiant heat, central air and an EV charger add practical value.
 
-* * *
+---
 
 ## 2. 1 Story Home in Lake Oswego
 
@@ -83,7 +83,7 @@ Remodeled 3-bedroom home (with a permitted ADU) on a quarter-acre lot delivering
 
 High-end kitchen materials and a spa-style primary bath give the main house a finished feel, while the permitted ADU provides rental or multigenerational options and separate access—useful for income or flexible household arrangements.
 
-* * *
+---
 
 ## 3. 2 Story Home in Lake Oswego
 
@@ -104,7 +104,7 @@ A 4-bed, 3-bath residence built in 1952 with about 3,232 square feet on a .37-ac
 
 The combination of private outdoor amenities—a gas-heated 32' x 16' pool, expansive decking and mature landscaping—paired with a very large garage and recent major system upgrades make it an attractive pick for buyers wanting space and utility.
 
-* * *
+---
 
 ## 4. Craftsman Home in Barnes Heights
 
@@ -125,7 +125,7 @@ Grand Craftsman-style home from 1997 on 2.5 acres with approximately 4,697 squar
 
 This West Hills property pairs substantial indoor entertaining spaces and Craftsman detail with significant acreage and privacy. The wraparound deck, vaulted great room and multiple offices make it suitable for large gatherings or multigenerational use.
 
-* * *
+---
 
 ## 5. Renovated Mid-Century in BLUE HERON NEIGHBORHOOD
 
@@ -133,8 +133,8 @@ This West Hills property pairs substantial indoor entertaining spaces and Crafts
 
 **Address:** [3550 SOUTHSHORE BLVD Lake Oswego, OR 97034](https://www.zillow.com/homes/3550-SOUTHSHORE-BLVD-Lake-Oswego-OR-97034_rb/)  
 **Current price:** \$1,250,000  
-**Original list price:** \$13,500,001,450,000  
-**Reduction from original price:** About \$13,500,000,200,000  
+**Original list price:** \$1,375,000
+**Reduction from original price:** About \$125,000
 **Bedrooms:** 3  
 **Bathrooms:** 2 full, 1 partial  
 **Square feet:** 2,346  
@@ -146,7 +146,7 @@ Completely reimagined mid-century modern residence built in 1956 with about 2,34
 
 Comprehensive systems and finish upgrades reduce near-term maintenance concerns, while peek-a-boo lake views and access to multiple private lake easements add lifestyle value—combining renovated mid-century character with turn-key convenience.
 
-* * *
+---
 
 ## What Buyers Should Know About Price Reductions
 
@@ -156,7 +156,7 @@ A price reduction can indicate seller motivation, but it can also mean that the 
 
 The reduction itself is only one piece of the puzzle. Buyers should still review comparable sales, property condition, disclosures, inspection findings, financing terms and neighborhood demand before deciding how much value a price change actually creates.
 
-* * *
+---
 
 ## Interested in One of These Homes?
 
