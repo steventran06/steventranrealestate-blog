@@ -15,6 +15,8 @@ export interface Props {
   pubDatetime?: Date;
   modDatetime?: Date | null;
   scrollSmooth?: boolean;
+  robots?: string;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
@@ -26,6 +28,8 @@ const {
   pubDatetime,
   modDatetime,
   scrollSmooth = false,
+  robots,
+  structuredData,
 } = Astro.props;
 
 const socialImageURL = new URL(
@@ -48,7 +52,15 @@ const socialImageURL = new URL(
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <meta name="author" content={author} />
+    {robots && <meta name="robots" content={robots} />}
     <link rel="sitemap" href="/sitemap-index.xml" />
+
+    {structuredData && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify(structuredData)}
+      />
+    )}
 
     <meta property="og:type" content={pubDatetime ? "article" : "website"} />
     <meta property="og:title" content={title} />

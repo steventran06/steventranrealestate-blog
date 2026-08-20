@@ -15,7 +15,9 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     react(),
-    sitemap(),
+    sitemap({
+      filter: page => !new URL(page).pathname.startsWith("/search/"),
+    }),
   ],
 
   markdown: {

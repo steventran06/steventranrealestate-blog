@@ -21,7 +21,7 @@ const searchList = sortedPosts.map(({ data, slug }) => ({
 }));
 ---
 
-<Layout title={`Search | ${SITE.title}`}>
+<Layout title={`Search | ${SITE.title}`} robots="noindex,follow">
   <Header activeNav="search" />
   <Main pageTitle="Search" pageDesc={IS_PORTLAND_HOME_GUIDE ? "Search Portland Home Guide articles by community, relocation topic, housing question or market subject." : "Search Portland real estate articles by topic."}>
     <SearchBar client:load searchList={searchList} />

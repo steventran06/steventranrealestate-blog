@@ -7,6 +7,7 @@ import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinks.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
 import { BRAND, IS_PORTLAND_HOME_GUIDE, SITE } from "@config";
 
 export interface Props {
@@ -32,14 +33,83 @@ const ogUrl = new URL(
   Astro.site ?? Astro.url.origin
 ).href;
 
+const articleCanonicalURL = canonicalURL ?? new URL(Astro.url.pathname, Astro.site).href;
+const authorUrl = "https://steventranrealestate.com/about/";
+const publisherUrl = BRAND.mainSiteUrl.replace(/\/$/, "");
+const publisherName = IS_PORTLAND_HOME_GUIDE
+  ? "Portland Home Guide"
+  : "Steven Tran Real Estate";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": `${articleCanonicalURL}#article`,
+      headline: title,
+      description,
+      image: [ogUrl],
+      datePublished: pubDatetime.toISOString(),
+      ...(modDatetime ? { dateModified: modDatetime.toISOString() } : {}),
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": articleCanonicalURL,
+      },
+      author: {
+        "@type": "Person",
+        "@id": `${authorUrl}#steven-tran`,
+        name: "Steven Tran",
+        url: authorUrl,
+        sameAs: [
+          "https://www.instagram.com/steventranpdx",
+          "https://www.linkedin.com/in/steventran06/",
+          "https://www.youtube.com/@steventran_pdxrealtor",
+          "https://www.facebook.com/StevenTranPDXRealtor/",
+        ],
+      },
+      publisher: {
+        "@type": "Organization",
+        "@id": `${publisherUrl}/#organization`,
+        name: publisherName,
+        url: `${publisherUrl}/`,
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${articleCanonicalURL}#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: new URL("/", Astro.site).href,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Articles",
+          item: new URL("/posts/", Astro.site).href,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: title,
+          item: articleCanonicalURL,
+        },
+      ],
+    },
+  ],
+};
+
 const layoutProps = {
   title: `${title} | ${SITE.title}`,
   author,
   description,
   pubDatetime,
   modDatetime,
-  canonicalURL,
+  canonicalURL: articleCanonicalURL,
   ogImage: ogUrl,
+  structuredData,
   scrollSmooth: true,
 };
 ---
@@ -49,6 +119,7 @@ const layoutProps = {
 
   <main id="main-content" class="article-page">
     <div class="site-container article-header-shell">
+      <Breadcrumbs />
       <a class="back-link" href="/posts/">← All Articles</a>
 
       <header class="article-header">

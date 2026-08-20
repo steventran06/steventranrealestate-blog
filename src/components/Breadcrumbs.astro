@@ -7,7 +7,11 @@ const breadcrumbList = currentUrlPath.split("/").filter(Boolean);
 
 // Posts pagination:
 // /posts/2 => Posts (page 2)
-if (breadcrumbList[0] === "posts" && breadcrumbList.length > 1) {
+if (
+  breadcrumbList[0] === "posts" &&
+  breadcrumbList.length === 2 &&
+  !isNaN(Number(breadcrumbList[1]))
+) {
   breadcrumbList.splice(
     0,
     2,
@@ -53,6 +57,7 @@ function formatBreadcrumb(value: string) {
         {breadcrumbList.map((breadcrumb, index) => {
           const isLast =
             index === breadcrumbList.length - 1;
+          const href = `/${breadcrumbList.slice(0, index + 1).join("/")}/`;
 
           return (
             <li>
@@ -71,9 +76,7 @@ function formatBreadcrumb(value: string) {
                   {formatBreadcrumb(breadcrumb)}
                 </span>
               ) : (
-                <a
-                  href={`/${breadcrumb}/`}
-                >
+                <a href={href}>
                   {formatBreadcrumb(breadcrumb)}
                 </a>
               )}
