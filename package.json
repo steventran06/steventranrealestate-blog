@@ -3,11 +3,10 @@
   "version": "4.2.0",
   "private": false,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "SITE_BRAND=steven-tran astro build && jampack ./dist",
-    "build:portland-home-guide": "SITE_BRAND=portland-home-guide astro build && jampack ./dist",
     "dev": "SITE_BRAND=steven-tran astro dev",
+    "start": "astro dev",
+    "build": "npm run generate:indexnow-key && SITE_BRAND=steven-tran astro build && jampack ./dist",
+    "build:portland-home-guide": "npm run generate:indexnow-key && SITE_BRAND=portland-home-guide astro build && jampack ./dist",
     "dev:portland-home-guide": "SITE_BRAND=portland-home-guide astro dev",
     "preview": "astro preview",
     "sync": "astro sync",
@@ -16,7 +15,10 @@
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "cz": "cz",
     "prepare": "husky install",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "generate:indexnow-key": "node --env-file-if-exists=.env scripts/generate-indexnow-key.mjs",
+    "indexnow": "SITE_BRAND=steven-tran node --env-file-if-exists=.env scripts/indexnow.mjs",
+    "indexnow:portland-home-guide": "SITE_BRAND=portland-home-guide node --env-file-if-exists=.env scripts/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
@@ -33,7 +35,7 @@
   },
   "devDependencies": {
     "@astrojs/react": "^3.0.9",
-    "@astrojs/sitemap": "^3.0.5",
+    "@astrojs/sitemap": "^3.7.3",
     "@astrojs/tailwind": "^5.1.0",
     "@divriots/jampack": "^0.23.2",
     "@tailwindcss/typography": "^0.5.10",

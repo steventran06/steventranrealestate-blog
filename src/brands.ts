@@ -80,7 +80,7 @@ export const BRANDS: Record<BrandId, BlogBrand> = {
     description:
       "Portland Metro and Southwest Washington real estate insights, relocation guides, market updates, homebuyer resources, new construction, and investing information from Steven Tran.",
     author: "Steven Tran",
-    website: "https://steventranrealestate.com",
+    website: "https://blog.steventranrealestate.com",
     analyticsId: "G-PCBBTVNK95",
     mainSiteUrl: "https://steventranrealestate.com/",
     communitiesUrl: "https://steventranrealestate.com/communities/",
@@ -113,7 +113,7 @@ export const BRANDS: Record<BrandId, BlogBrand> = {
     description:
       "Long-form Portland Metro and Southwest Washington housing research, relocation guides, community comparisons, market explainers and practical home-buying context from Portland Home Guide.",
     author: "Steven Tran",
-    website: "https://portlandhomeguide.com",
+    website: "https://articles.portlandhomeguide.com",
     analyticsId: "G-BPCRJJ02BR",
     mainSiteUrl: "https://portlandhomeguide.com/",
     communitiesUrl: "https://portlandhomeguide.com/communities/",

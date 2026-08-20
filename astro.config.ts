@@ -9,6 +9,7 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+
   integrations: [
     tailwind({
       applyBaseStyles: false,
@@ -16,6 +17,7 @@ export default defineConfig({
     react(),
     sitemap(),
   ],
+
   markdown: {
     remarkPlugins: [
       remarkToc,
@@ -26,15 +28,18 @@ export default defineConfig({
         },
       ],
     ],
+
     shikiConfig: {
       theme: "one-dark-pro",
       wrap: true,
     },
   },
+
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
   },
+
   scopedStyleStrategy: "where",
 });
