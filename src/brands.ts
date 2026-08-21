@@ -54,7 +54,7 @@ const STEVEN_SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://www.youtube.com/@steventran_pdxrealtor",
+    href: "https://www.youtube.com/@portlandmetrorealestateguide",
     linkTitle: "Steven Tran Real Estate Blog on YouTube",
     active: true,
   },

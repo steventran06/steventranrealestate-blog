@@ -31,13 +31,13 @@ For buyers relocating to the area, I've also created a **[free Portland Relocati
 A big part of my work is helping people learn about real estate **before** they're ready to make a purchase.
 
 On my **[Steven Tran - Portland Metro Real Estate Guide
-](https://youtube.com/@steventran_pdxrealtor)**, I create full home tours, Portland Metro real estate tips, neighborhood and community videos, new construction walkthroughs, relocation information and videos about programs that can make homeownership more accessible.
+](https://www.youtube.com/@portlandmetrorealestateguide)**, I create full home tours, Portland Metro real estate tips, neighborhood and community videos, new construction walkthroughs, relocation information and videos about programs that can make homeownership more accessible.
 
 The goal is the same as my approach with clients: provide useful information so people can better understand their options and make smarter decisions about buying a home.
 
 If you're researching Portland, Beaverton, Hillsboro, Oregon City, Vancouver, Camas or other communities around the metro, the channel is a good place to see actual homes and learn how the different markets compare.
 
-**[Watch Home Tours & Real Estate Tips on YouTube →](https://youtube.com/@steventran_pdxrealtor)**
+**[Watch Home Tours & Real Estate Tips on YouTube →](https://www.youtube.com/@portlandmetrorealestateguide)**
 
 ## Real Estate Investing & REalized Gains
 
@@ -65,5 +65,5 @@ You can also:
 
 **[Explore Communities →](https://steventranrealestate.com/communities/)**  
 **[Get the Free Portland Relocation Guide →](https://steventranrealestate.com/#relocation)**  
-**[Watch My Real Estate Videos →](https://youtube.com/@steventran_pdxrealtor)**  
+**[Watch My Real Estate Videos →](https://www.youtube.com/@portlandmetrorealestateguide)**  
 **[Schedule a Consultation →](https://calendly.com/steven-diverserg/new-meeting)**
