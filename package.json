@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "SITE_BRAND=steven-tran astro dev",
     "start": "astro dev",
+    "check": "npm run lint && astro check",
+    "prebuild": "npm run check",
+    "prebuild:portland-home-guide": "npm run check",
     "build": "npm run generate:indexnow-key && SITE_BRAND=steven-tran astro build && jampack ./dist",
     "build:portland-home-guide": "npm run generate:indexnow-key && SITE_BRAND=portland-home-guide astro build && jampack ./dist",
     "dev:portland-home-guide": "SITE_BRAND=portland-home-guide astro dev",

@@ -24,6 +24,7 @@ export type BlogBrand = {
   brandName: string;
   brandSubtitle: string;
   logo?: string;
+  footerLogo: string;
   logoAlt?: string;
   favicon: string;
   ogImage: string;
@@ -132,7 +133,7 @@ export const BRANDS: Record<BrandId, BlogBrand> = {
     logo: "/assets/portland-home-guide-logo.png",
     footerLogo: "/assets/portland-home-guide-logo-gray.png",
     favicon: "/portlandhomeguide-favicon.ico",
-    ogImage: "assets/portlandhomeguidelinkpreview.png.png",
+    ogImage: "assets/portlandhomeguidelinkpreview.png",
     footerDescription:
       "Research-first Portland Metro and Southwest Washington housing guides, relocation resources and local market context.",
     footerDescriptor: "Portland Metro Housing Research & Local Guides",
